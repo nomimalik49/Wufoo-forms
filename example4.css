@@ -1,0 +1,142 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title :
+ Author :
+ URL : http://
+
+ Last Updated :
+
+- - - - - - - - - - - - - - - - - - - - - */
+html {
+    background-image: none;
+    background-color: #ffffff;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+form.wufoo {
+    margin: 0px auto !important;
+    padding: 12% !important;
+    position: relative !important;
+    background-color: #525F7F !important;
+}
+ form li {
+  padding: 0px !important;
+  margin-bottom: 10px;
+}
+/* form li:nth-child(3) {
+  margin-bottom: 0px !important;
+  border-bottom: none;
+}  */
+label.desc, legend.desc {
+    font-size: 15px !important;
+    color: #222;
+    line-height: 193%;
+    margin: 0;
+    padding: 0 0 3px 0;
+    border: none;
+    display: inline-flex;
+    white-space: normal;
+    width: 15% !important;
+}
+.wufoo label.desc, .wufoo legend.desc {
+    font-family: inherit;
+    color: #C4F0FE;
+    font-weight: 100;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+  opacity: 0.5;
+  font-size: 15px;
+  text-indent: 10px;
+  font-weight: 100 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+  opacity: 0.5;
+  font-size: 15px;
+  text-indent: 10px;
+  font-weight: 100 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+  opacity: 0.5;
+  font-size: 15px;
+  text-indent: 10px;
+  font-weight: 100 !important;
+}
+:-moz-placeholder { /* Firefox 15- */
+  color: #fff;
+  opacity: 0.5;
+  font-size: 15px;
+  text-indent: 10px;
+  font-weight: 100 !important;
+}
+form li div {
+  width: 100%;
+  display: inline-flex;
+}
+input.small, select.small {
+    width: 31%;
+}
+.wufoo li {
+    width: 100%;
+    display: inline-flex;
+    border-color: #C4F0FE;
+}
+.wufooul1 {
+      border-radius: 5px;
+      padding: 10px 0px 0px 10px !important;
+}
+input:focus {
+  outline: none;
+  background-color: #fff !important;
+}
+input[placeholder]:focus { color: #333 !important; }
+/* .wufoo li::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+} */
+.wufoo input.text, .wufoo input.tel, .wufoo textarea.textarea {
+    /* background: #FFFFFF url(/images/fieldbg.gif) repeat-x top; */
+    padding: 2px 2px;
+    color: #fff;
+    border: 0px !important;
+    -webkit-animation: 1ms void-animation-out;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-indent: 10px;
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+}
+li#fo1li8 {
+  border-bottom: 0px;
+  margin-bottom: 0px !important;
+}
+li.buttons {
+  border-bottom: 0px;
+
+}
+input#saveForm {
+  display: block;
+width: 468px;
+height: 40px;
+background-color: #FCD669;
+box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #ffb9f6;
+border-radius: 20px;
+color: #525F7F;
+font-weight: 600;
+cursor: pointer;
+border: 0px !important;
+
+}
