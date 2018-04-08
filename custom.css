@@ -55,3 +55,15 @@ form li.focused {
 input::placeholder {
     color: #CDC8F0;
 }
+li#fo3li4 {
+    display: table-cell;
+}
+li#fo3li6 {
+    display: table-cell;
+}
+input#Field4 {
+    width: 100%;
+}
+input#Field6 {
+    width: 100%;
+}
