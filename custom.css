@@ -29,7 +29,8 @@ form.wufoo {
     border-bottom: 1px solid #CDC8F0;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
-   border-bottom: 1px solid #fff;
+   border: 0px;
+   border-bottom: 1px solid #fff !important;
 }
 
 input.text, input.search, textarea.textarea {
