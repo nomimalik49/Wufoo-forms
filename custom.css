@@ -27,4 +27,7 @@ form.wufoo {
     background-color: transparent;
     color: #fff !important;
 }
+input.text, input.search, textarea.textarea {
+   background: none !important;
+}
 
