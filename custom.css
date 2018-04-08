@@ -21,4 +21,10 @@ form.wufoo {
     position: relative !important;
     background-color: #9169D8 !important;
 }
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
+    font-family: inherit;
+    border: 0px;
+    background-color: transparent;
+    color: #fff !important;
+}
 
