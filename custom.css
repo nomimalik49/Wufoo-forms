@@ -75,4 +75,13 @@ li#fo3li10, li#fo3li12 {
 li#fo3li13 {
     display: table-cell;
 }
+input#Field18 {
+    width: 20%;
+    float: right !important;
+    transform: translate(-41%,-171%);
+    border-bottom: transparent !important;
+}
+input#Field18:focus {
+   border-bottom: 0px !important;
+}
 
