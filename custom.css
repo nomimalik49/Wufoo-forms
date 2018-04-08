@@ -30,4 +30,11 @@ form.wufoo {
 input.text, input.search, textarea.textarea {
    background: none !important;
 }
+.wufoo li.focused {
+    background-color: transparent !important;
+}
+
+form li.focused {
+    background-color: transparent !important;
+}
 
