@@ -76,9 +76,9 @@ li#fo3li13 {
     display: table-cell;
 }
 input#Field18 {
-    width: 16%;
+    width: 12%;
     float: right !important;
-    transform: translate(-41%,-174%);
+    transform: translate(-100%,-174%);
     border-bottom: transparent !important;
 }
 input#Field18:focus {
