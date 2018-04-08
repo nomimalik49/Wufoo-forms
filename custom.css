@@ -45,4 +45,10 @@ input.text, input.search, textarea.textarea {
 form li.focused {
     background-color: transparent !important;
 }
-
+.wufoo label.desc, .wufoo legend.desc {
+    font-size: 95%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 100 !important;
+    color: #cfeaff !important;
+}
