@@ -24,7 +24,7 @@ form.wufoo {
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
     font-family: inherit;
     border: 0px;
-    background-color: transparent;
+    background-color: transparent !important;
     color: #fff !important;
 }
 input.text, input.search, textarea.textarea {
