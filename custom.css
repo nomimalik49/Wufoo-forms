@@ -52,3 +52,6 @@ form li.focused {
     font-weight: 100 !important;
     color: #cfeaff !important;
 }
+input::placeholder {
+    color: #CDC8F0;
+}
