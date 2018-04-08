@@ -95,7 +95,7 @@ input#Field19:focus {
 }
 .wufoo input.btTxt {
     width: 100%;
-    transform: translateY(-140%);
+    transform: translateY(-200%);
     height: 40px;
     background-color: #fff;
     border: 0px;
