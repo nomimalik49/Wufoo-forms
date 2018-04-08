@@ -57,9 +57,11 @@ input::placeholder {
 }
 li#fo3li4 {
     display: table-cell;
+    width:60% !important; 
 }
 li#fo3li6 {
     display: table-cell;
+    width:60% !important;
 }
 input#Field4 {
     width: 100%;
