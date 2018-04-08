@@ -78,7 +78,7 @@ li#fo3li13 {
 input#Field18 {
     width: 20%;
     float: right !important;
-    transform: translate(-41%,-171%);
+    transform: translate(-41%,-174%);
     border-bottom: transparent !important;
 }
 input#Field18:focus {
@@ -88,6 +88,7 @@ input#Field19 {
     width: 10%;
     float: right;
     transform: translatey(-350%);
+    border-bottom: transparent !important;
 }
 input#Field19:focus {
    border-bottom: 0px !important;
