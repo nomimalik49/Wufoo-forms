@@ -26,7 +26,12 @@ form.wufoo {
     border: 0px;
     background-color: transparent !important;
     color: #fff !important;
+    border-bottom: 1px solid #CDC8F0;
 }
+.wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
+   border-bottom: 1px solid #fff;
+}
+
 input.text, input.search, textarea.textarea {
    background: none !important;
 }
