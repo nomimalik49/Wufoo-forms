@@ -90,4 +90,8 @@ label.desc {
     position: relative !important;
     color: #24b47e !important;
 }
+input:not(.empty) + label {
+    position: absolute !important;
+    color: #24b47e !important;
+}
 
