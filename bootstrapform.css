@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 body {
-  font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+  font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 html {
     background-image: none;
