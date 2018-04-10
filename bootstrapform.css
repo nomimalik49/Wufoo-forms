@@ -37,7 +37,7 @@ textarea  {
     border: 1px solid #CED4DA !important;
     height: 70px !important;
 }
-.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
+.wufoo input.text, .wufoo input.file, .wufoo select.select {
     border: 1px solid #CED4DA !important;
     height: 30px;
     border-radius: 5px;
