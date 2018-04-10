@@ -30,12 +30,17 @@ form li.focused {
 }
 input {
     border: 1px solid #CED4DA !important;
+      height: 30px;
+      border-radius: 5px;
 }
 textarea  {
     border: 1px solid #CED4DA !important;
 }
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
     border: 1px solid #CED4DA !important;
+    height: 30px;
+    border-radius: 5px;
+    color: #CED4DA !important;
 }
 .wufoo li span {
     font-weight: 100 !important;
