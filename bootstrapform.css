@@ -23,7 +23,7 @@ input.text, input.search, textarea.textarea {
 form li.focused {
     background-color: transparent !important;
 }
-.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label .wufoo label.desc, .wufoo legend.desc {
+.wufoo label.desc, .wufoo legend.desc {
     font-weight: 100 !important;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
     font-size: 110% !important;
@@ -36,4 +36,8 @@ textarea  {
 }
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
     border: 1px solid #CED4DA !important;
+}
+.wufoo li span {
+    font-weight: 100 !important;
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
 }
