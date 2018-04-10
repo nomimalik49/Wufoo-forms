@@ -15,6 +15,7 @@ form.wufoo {
 }
 input.text, input.search, textarea.textarea {
    background: none !important;
+   font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 .wufoo li.focused {
     background-color: transparent !important;
@@ -32,16 +33,19 @@ input {
     border: 1px solid #CED4DA !important;
       height: 30px;
       border-radius: 5px;
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 textarea  {
     border: 1px solid #CED4DA !important;
     height: 70px !important;
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 .wufoo input.text, .wufoo input.file, .wufoo select.select {
     border: 1px solid #CED4DA !important;
     height: 30px;
     border-radius: 5px;
     color: #333 !important;
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 .wufoo li span {
     font-weight: 100 !important;
@@ -53,4 +57,5 @@ textarea  {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
