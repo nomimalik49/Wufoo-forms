@@ -43,12 +43,23 @@ input.text, input.search, textarea.textarea {
 form li.focused {
     background-color: transparent !important;
 }
-.wufoo label.desc, .wufoo legend.desc {
-    font-size: 95%;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 100 !important;
-    color: #cfeaff !important;
+label {
+    background: #fff;
+    height: 18px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 25%;
+    left: 1%;
+    color: #cfd7df;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transform-origin: 0 50%;
+    cursor: text;
+    transition-property: color, transform;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 input::placeholder {
     color: #CDC8F0;
