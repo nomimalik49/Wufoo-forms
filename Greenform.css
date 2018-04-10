@@ -84,3 +84,9 @@ label {
     border-radius: 10px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
+.wufoo li.focused input.file + .wufoo li.focused label.desc {
+color: #24b47e;
+transform: scale(0.85) translateY(-25px);
+cursor: default;
+}
+
