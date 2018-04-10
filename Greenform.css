@@ -86,11 +86,8 @@ label.desc {
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 .wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label {
-    position: relative !important;
-    color: #24b47e !important;
-}
-input:not(.empty) + label {
-    position: relative !important;
+   transform: scale(0.85) translateY(-25px);
+    cursor: default;
     color: #24b47e !important;
 }
 li#fo6li10, li#fo6li12, li#fo6li13 {
