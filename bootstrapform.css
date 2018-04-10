@@ -23,3 +23,8 @@ input.text, input.search, textarea.textarea {
 form li.focused {
     background-color: transparent !important;
 }
+.wufoo label.desc, .wufoo legend.desc {
+    font-weight: 100 !important;
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+    font-size: 110% !important;
+}
