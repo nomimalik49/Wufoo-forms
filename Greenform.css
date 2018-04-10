@@ -84,9 +84,9 @@ label {
     border-radius: 10px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
-.wufoo input.text:focus + label.desc, .wufoo textarea.textarea:focus + label.desc, .wufoo input.file:focus + label.desc {
-color: #24b47e !important;
-transform: scale(0.85) translateY(-25px) !important;
-cursor: default !important;
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#5264AE;
 }
 
