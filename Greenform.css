@@ -90,5 +90,18 @@ label.desc {
     cursor: default;
     color: #24b47e !important;
 }
+li#fo6li10 {
+    display: table-cell;
+    padding-top: 15px !important;
+    width: 35% !important;
+}
+li#fo6li12 {
+    width: 36% !important;
+    display: table-cell;
+}
+li#fo6li13 {
+    display: table-cell;
+    width: 35% !important;
+}
 
 
