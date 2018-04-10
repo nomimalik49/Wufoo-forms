@@ -85,7 +85,8 @@ label {
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 label:has(+ input:focus)	{
-  top:-20px;
+  top:-20px !important;
+ position: relative !important;
   font-size:14px;
   color:#5264AE;
 }
