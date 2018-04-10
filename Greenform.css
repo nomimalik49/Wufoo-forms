@@ -93,4 +93,7 @@ input:not(.empty) + label {
     position: relative !important;
     color: #24b47e !important;
 }
+li#fo6li10, li#fo6li12, li#fo6li13 {
+    display: table-cell;
+}
 
