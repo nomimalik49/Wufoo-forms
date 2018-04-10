@@ -25,6 +25,7 @@ form.wufoo {
     background-color: transparent !important;
     color: #fff !important;
     border-bottom: 1px solid #CFD7DF;
+ font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    border: 0px;
@@ -60,6 +61,7 @@ label {
     transition-property: color, transform;
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 .wufoo label.desc, .wufoo legend.desc {
     font-size: 95%;
@@ -67,6 +69,7 @@ label {
     font-style: normal;
     font-weight: 100 !important;
     color: #cfd7df !important;
+   font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 .wufoo input.btTxt {
     width: 100%;
@@ -76,4 +79,5 @@ label {
     border: 0px;
     color: #fff;
     border-radius: 10px;
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
