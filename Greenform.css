@@ -84,7 +84,7 @@ label {
     border-radius: 10px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
-input:focus ~ label, input:valid ~ label 		{
+label:has(+ input:focus)	{
   top:-20px;
   font-size:14px;
   color:#5264AE;
