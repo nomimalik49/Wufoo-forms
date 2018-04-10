@@ -78,7 +78,6 @@ label.desc {
 }
 .wufoo input.btTxt {
     width: 100%;
-    transform: translateY(-200%);
     height: 40px;
     background-color: #24B47E;
     border: 0px;
@@ -87,10 +86,6 @@ label.desc {
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 .wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label {
-    position: relative !important;
-    color: #24b47e !important;
-}
-.wufoo li.focused:not(.empty)+ label.desc, .wufoo li.focused:not(.empty) + legend.desc, .wufoo li.focused:not(.empty) + span, .wufoo li.focused:not(.empty) + div label, .wufoo li.focused:not(.empty) + span label {
     position: relative !important;
     color: #24b47e !important;
 }
