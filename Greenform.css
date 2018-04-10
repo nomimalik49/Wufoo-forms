@@ -90,7 +90,7 @@ label.desc {
     position: relative !important;
     color: #24b47e !important;
 }
-.wufoo li.focused label.desc:not(.empty), .wufoo li.focused legend.desc:not(.empty), .wufoo li.focused span:not(.empty), .wufoo li.focused div label:not(.empty), .wufoo li.focused span label:not(.empty) {
+.wufoo li.focused:not(.empty)+ label.desc, .wufoo li.focused:not(.empty) + legend.desc, .wufoo li.focused:not(.empty) + span, .wufoo li.focused:not(.empty) + div label, .wufoo li.focused:not(.empty) + span label {
     position: relative !important;
     color: #24b47e !important;
 }
