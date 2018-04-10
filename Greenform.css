@@ -103,8 +103,11 @@ li#fo6li13 {
     display: table-cell;
     width: 35% !important;
 }
-input#Field10, input#Field12, input#Field13 {
+input#Field10, input#Field12 {
     width: 100% !important;
+}
+input#Field13 {
+width: 105% !important;
 }
 
 
