@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body {
+  font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+}
+html {
+    background-image: none;
+    background-color: #ffffff;
+}
+
+form.wufoo {
+    margin: 0px auto !important;
+    padding: 12% !important;
+    position: relative !important;
+    background-color: #fff !important;
+}
+input.text, input.search, textarea.textarea {
+   background: none !important;
+}
+.wufoo li.focused {
+    background-color: transparent !important;
+}
+
+form li.focused {
+    background-color: transparent !important;
+}
