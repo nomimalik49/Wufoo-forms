@@ -93,4 +93,7 @@ label.desc {
 li#fo6li10, li#fo6li12, li#fo6li13 {
     display: table-cell;
 }
+input#Field10, input#Field12, input#Field13 {
+    width: 110%;
+}
 
