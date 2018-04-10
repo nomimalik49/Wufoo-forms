@@ -24,11 +24,11 @@ form.wufoo {
     border: 0px;
     background-color: transparent !important;
     color: #fff !important;
-    border-bottom: 1px solid #CDC8F0;
+    border-bottom: 1px solid #CFD7DF;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    border: 0px;
-   border-bottom: 1px solid #fff !important;
+   border-bottom: 1px solid #24B47E !important;
    outline: 0px !important;
     outline-color: transparent !important;
 }
@@ -72,8 +72,8 @@ label {
     width: 100%;
     transform: translateY(-200%);
     height: 40px;
-    background-color: #fff;
+    background-color: #24B47E;
     border: 0px;
-    color: #333;
+    color: #fff;
     border-radius: 10px;
 }
