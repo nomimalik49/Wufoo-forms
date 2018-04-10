@@ -47,7 +47,7 @@ input.text, input.search, textarea.textarea {
 form li.focused {
     background-color: transparent !important;
 }
-label {
+label.desc {
     background: #fff;
     height: 18px;
     position: absolute;
