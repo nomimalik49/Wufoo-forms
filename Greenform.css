@@ -36,6 +36,7 @@ form.wufoo {
    border-bottom: 1px solid #24B47E !important;
    outline: 0px !important;
     outline-color: transparent !important;
+   color: #333 !important;
 }
 
 input.text, input.search, textarea.textarea {
@@ -85,8 +86,8 @@ label.desc {
     border-radius: 10px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
-.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label, .safari .wufoo li.focused input.file {
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label {
     position: relative !important;
-    color: #24b47e;
+    color: #24b47e !important;
 }
 
