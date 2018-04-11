@@ -98,11 +98,9 @@ li#fo7li18 {
     float: right !important;
     transform: translate(-110%,-249%);
 }
-/* ul {
-background-color: #7795F8;
-    height: 160px;
-    border-radius: 10px;
-} */
+ul {
+    box-shadow: 1px 2px 2px 2px #4a55c4;
+}
 
 li#fo7li7 {
     background-color: #7795F8;
