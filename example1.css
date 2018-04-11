@@ -44,11 +44,11 @@ label {
     width: 20% !important;
 }
 .wufoo input.btTxt {
-    width: 100%;
+    width: 690%;
     height: 40px;
-    background-color: #fff;
+    background-color: #F6A4EB;
     border: 0px;
-    color: #333;
+    color: #fff;
     border-radius: 10px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
 }
