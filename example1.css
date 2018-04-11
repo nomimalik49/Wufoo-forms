@@ -33,6 +33,8 @@ form li.focused {
 }
 label {
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+    font-weight:100;
+    font-size:15px !important;
 }
 .wufoo input.btTxt {
     width: 100%;
