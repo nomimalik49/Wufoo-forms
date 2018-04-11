@@ -60,12 +60,19 @@ label {
 }
 li {
     display: flex;
-    background-color: #7795F8;
+    background-color: #7795F8 !important;
     border-bottom: 1px solid #F4F4F4;
+    
 }
 li:nth-child(3) {
   border-bottom: 0px !important;
 }
 li.buttons {
+    border-bottom: 0px !important;
+}
+label#title15 {
+    display: none;
+}
+li#fo7li15 {
     border-bottom: 0px !important;
 }
