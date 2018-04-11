@@ -61,4 +61,8 @@ label {
 li {
     display: flex;
     background-color: #7795F8;
+    border-bottom: 1px solid #F4F4F4;
+}
+li:nth-chlid(3) {
+  border-bottom: 0px !important;
 }
