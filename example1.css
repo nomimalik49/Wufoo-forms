@@ -31,7 +31,6 @@ form li.focused {
 }
 .wufoo input.btTxt {
     width: 100%;
-    transform: translateY(-200%);
     height: 40px;
     background-color: #fff;
     border: 0px;
