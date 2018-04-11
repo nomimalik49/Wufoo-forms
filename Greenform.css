@@ -50,6 +50,9 @@ input.text, input.search, textarea.textarea {
 form li.focused {
     background-color: transparent !important;
 }
+label {
+ font-size: 15px !important;
+}
 label.desc {
     background: #fff;
     height: 18px;
@@ -68,7 +71,7 @@ label.desc {
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
-    font-size:15px !important;
+   
 }
 .wufoo label.desc, .wufoo legend.desc {
     font-size: 95%;
