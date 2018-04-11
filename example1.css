@@ -25,6 +25,7 @@ input.text, input.search, textarea.textarea {
  text-indent:10px;
  border:0px !important;
  width: 220%;
+ color: #fff;
 }
 input::placeholder {
  color:#85BBFD;
