@@ -123,3 +123,9 @@ li#fo7li11 {
     color: #fff;
     font-size: 16px !important;
 }
+.wufoo li#fo7li17.focused {
+    background-color: transparent !important;
+}
+.wufoo li#fo7li18.focused {
+    background-color: transparent !important;
+}
