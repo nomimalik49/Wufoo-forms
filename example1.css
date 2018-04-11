@@ -79,15 +79,18 @@ li#fo7li15 {
 li#fo7li17 {
     display: table-cell;
     border-bottom: 0px !important;
-    width: 15% !important;
-    float:right !important;
-    transform: translate(-79%,-106%);
+    width: 6% !important;
+    float: right !important;
+    transform: translate(-270%,-105%);
 }
 li#fo7li18 {
-    display: table-cell;
+ display: table-cell;
     border-bottom: 0px !important;
-     width: 10% !important;
- float:right !important;
- transform: translate(0%,-204%);
+    width: 5% !important;
+    float: right !important;
+    transform: translate(-52%,-204%);
+}
+
+
 }
 
