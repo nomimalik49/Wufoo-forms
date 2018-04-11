@@ -30,6 +30,7 @@ form.wufoo {
     border-bottom: 1px solid #CFD7DF;
  font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
  text-indent: 6px;
+     font-size: 14px !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    border: 0px;
@@ -67,6 +68,7 @@ label.desc {
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
+    font-size:15px;
 }
 .wufoo label.desc, .wufoo legend.desc {
     font-size: 95%;
