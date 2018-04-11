@@ -10,14 +10,14 @@ body {
 }
 html {
     background-image: none;
-    background-color: #ffffff;
+    background-color: #F6F9FC;
 }
 
 form.wufoo {
     margin: 0px auto !important;
     padding: 12% !important;
     position: relative !important;
-    background-color: #9169D8 !important;
+    background-color: #6772E5 !important;
 }
 input.text, input.search, textarea.textarea {
    background: none !important;
