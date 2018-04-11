@@ -23,6 +23,7 @@ input.text, input.search, textarea.textarea {
    background: none !important;
  font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
  text-indent:10px;
+ border:0px !important;
 }
 input::placeholder {
  color:#85BBFD;
