@@ -51,14 +51,14 @@ label {
     width: 20% !important;
 }
 .wufoo input.btTxt {
-    width: 690%;
+    width: 700%;
     height: 40px;
     background-color: #F6A4EB;
     border: 0px;
     color: #fff;
     border-radius: 10px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
-     transform: translateY(-85px) !important;
+    transform: translateY(-67px) !important;
 }
 li {
     display: flex;
@@ -85,14 +85,14 @@ li#fo7li17 {
     border-bottom: 0px !important;
     width: 6% !important;
     float: right !important;
-    transform: translate(-270%,-100%);
+    transform: translate(-270%,-96%);
 }
 li#fo7li18 {
  display: table-cell;
     border-bottom: 0px !important;
     width: 5% !important;
     float: right !important;
-    transform: translate(-52%,-201%);
+    transform: translate(-77%,-196%);
 }
 /* ul {
 background-color: #7795F8;
