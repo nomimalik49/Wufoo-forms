@@ -29,6 +29,11 @@ input.text, input.search, textarea.textarea {
 input::placeholder {
  color:#85BBFD;
 }
+.wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
+   border: 0px;
+   outline: 0px !important;
+    outline-color: transparent !important;
+}
 .wufoo li.focused {
     background-color: transparent !important;
 }
