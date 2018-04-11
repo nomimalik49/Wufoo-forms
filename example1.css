@@ -38,7 +38,7 @@ label {
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
     font-weight:100 !important;
     font-size:15px !important;
-    color:#B5F0FF;
+    color: #B5F0FF !important;
 }
 .wufoo input.btTxt {
     width: 100%;
