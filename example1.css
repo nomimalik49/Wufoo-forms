@@ -33,6 +33,7 @@ input::placeholder {
    border: 0px;
    outline: 0px !important;
     outline-color: transparent !important;
+   color: #fff !important;
 }
 .wufoo li.focused {
     background-color: transparent !important;
