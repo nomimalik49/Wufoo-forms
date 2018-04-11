@@ -57,6 +57,7 @@ label {
     color: #fff;
     border-radius: 10px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+     transform: translateY(-85px);
 }
 li {
     display: flex;
