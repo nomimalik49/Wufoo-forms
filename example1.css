@@ -26,6 +26,7 @@ input.text, input.search, textarea.textarea {
  border:0px !important;
  width: 220%;
  color: #fff;
+ font-size:16px;
 }
 input::placeholder {
  color:#85BBFD;
@@ -45,10 +46,11 @@ form li.focused {
 }
 label {
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
-    font-weight:100 !important;
-    font-size:14px !important;
+    font-weight: 100 !important;
+    font-size: 16px !important;
     color: #B5F0FF !important;
     width: 20% !important;
+    margin-top: 6px !important;
 }
 .wufoo input.btTxt {
     width: 700%;
