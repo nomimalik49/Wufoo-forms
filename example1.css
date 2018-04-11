@@ -21,6 +21,8 @@ form.wufoo {
 }
 input.text, input.search, textarea.textarea {
    background: none !important;
+ font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+
 }
 .wufoo li.focused {
     background-color: transparent !important;
@@ -29,6 +31,9 @@ input.text, input.search, textarea.textarea {
 form li.focused {
     background-color: transparent !important;
 }
+label {
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+}
 .wufoo input.btTxt {
     width: 100%;
     height: 40px;
@@ -36,4 +41,5 @@ form li.focused {
     border: 0px;
     color: #333;
     border-radius: 10px;
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
 }
