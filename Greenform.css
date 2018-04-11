@@ -68,7 +68,7 @@ label.desc {
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
-    font-size:15px;
+    font-size:15px !important;
 }
 .wufoo label.desc, .wufoo legend.desc {
     font-size: 95%;
