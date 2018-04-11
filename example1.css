@@ -115,3 +115,9 @@ li#fo7li11 {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    font-size: 100%;
+}
