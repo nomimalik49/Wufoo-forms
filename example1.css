@@ -58,9 +58,9 @@ label {
     background-color: #F6A4EB;
     border: 0px;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
-    transform: translateY(-67px) !important;
+    transform: translateY(-50px) !important;
 }
 li {
     display: flex;
