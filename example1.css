@@ -19,20 +19,6 @@ form.wufoo {
     position: relative !important;
     background-color: #9169D8 !important;
 }
-.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
-    font-family: inherit;
-    border: 0px;
-    background-color: transparent !important;
-    color: #fff !important;
-    border-bottom: 1px solid #CDC8F0;
-}
-.wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
-   border: 0px;
-   border-bottom: 1px solid #fff !important;
-   outline: 0px !important;
-    outline-color: transparent !important;
-}
-
 input.text, input.search, textarea.textarea {
    background: none !important;
 }
@@ -42,54 +28,6 @@ input.text, input.search, textarea.textarea {
 
 form li.focused {
     background-color: transparent !important;
-}
-.wufoo label.desc, .wufoo legend.desc {
-    font-size: 95%;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 100 !important;
-    color: #cfeaff !important;
-}
-input::placeholder {
-    color: #CDC8F0;
-}
-li#fo3li4 {
-    display: table-cell;
-    width:58% !important; 
-}
-li#fo3li6 {
-    display: table-cell;
-    width:52% !important;
-}
-input#Field4 {
-    width: 100%;
-}
-input#Field6 {
-    width: 157%;
-}
-li#fo3li10, li#fo3li12 {
-    display: table-cell;
-}
-li#fo3li13 {
-    display: table-cell;
-}
-input#Field18 {
-    width: 12%;
-    float: right !important;
-    transform: translate(-100%,-174%);
-    border-bottom: transparent !important;
-}
-input#Field18:focus {
-   border-bottom: 0px !important;
-}
-input#Field19 {
-    width: 10%;
-    float: right;
-    transform: translatey(-350%);
-    border-bottom: transparent !important;
-}
-input#Field19:focus {
-   border-bottom: 0px !important;
 }
 .wufoo input.btTxt {
     width: 100%;
