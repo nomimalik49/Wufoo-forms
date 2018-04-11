@@ -28,6 +28,7 @@ form.wufoo {
     background-color: transparent !important;
     color: #fff !important;
     border-bottom: 1px solid #CDC8F0;
+    font-size: 15px !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    border: 0px;
@@ -52,6 +53,7 @@ form li.focused {
     font-style: normal;
     font-weight: 100 !important;
     color: #cfeaff !important;
+    font-size:15px !important;
 }
 input::placeholder {
     color: #CDC8F0;
