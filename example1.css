@@ -22,7 +22,10 @@ form.wufoo {
 input.text, input.search, textarea.textarea {
    background: none !important;
  font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
-
+ text-indent:10px;
+}
+input::placeholder {
+ color:#85BBFD;
 }
 .wufoo li.focused {
     background-color: transparent !important;
@@ -33,7 +36,7 @@ form li.focused {
 }
 label {
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
-    font-weight:100;
+    font-weight:100 !important;
     font-size:15px !important;
 }
 .wufoo input.btTxt {
