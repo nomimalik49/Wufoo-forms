@@ -24,6 +24,7 @@ input.text, input.search, textarea.textarea {
  font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
  text-indent:10px;
  border:0px !important;
+ width: 290%;
 }
 input::placeholder {
  color:#85BBFD;
@@ -40,6 +41,7 @@ label {
     font-weight:100 !important;
     font-size:15px !important;
     color: #B5F0FF !important;
+    width: 35% !important;
 }
 .wufoo input.btTxt {
     width: 100%;
@@ -49,4 +51,7 @@ label {
     color: #333;
     border-radius: 10px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+}
+li#fo7li7 {
+    display: inline-flex;
 }
