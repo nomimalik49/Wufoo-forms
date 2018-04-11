@@ -60,6 +60,7 @@ label {
     color: #fff;
     border-radius: 5px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+    tranform: translateY(-10px);
 }
 li {
     display: flex;
