@@ -81,18 +81,20 @@ li#fo7li15 {
     border-radius: 5px;
 }
 li#fo7li17 {
+    height: 19px;
     display: table-cell;
     border-bottom: 0px !important;
     width: 6% !important;
     float: right !important;
-    transform: translate(-270%,-96%);
+    transform: translate(-270%,-114%);
 }
 li#fo7li18 {
- display: table-cell;
+    height: 19px;
+    display: table-cell;
     border-bottom: 0px !important;
     width: 5% !important;
     float: right !important;
-    transform: translate(-77%,-196%);
+    transform: translate(-77%,-215%);
 }
 /* ul {
 background-color: #7795F8;
