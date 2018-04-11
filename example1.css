@@ -83,20 +83,20 @@ li#fo7li15 {
     border-radius: 5px;
 }
 li#fo7li17 {
-    height: 19px;
+        height: 19px;
     display: table-cell;
     border-bottom: 0px !important;
-    width: 6% !important;
+    width: 7% !important;
     float: right !important;
-    transform: translate(-270%,-114%);
+    transform: translate(-291%,-149%);
 }
 li#fo7li18 {
-    height: 19px;
+   height: 19px;
     display: table-cell;
     border-bottom: 0px !important;
     width: 5% !important;
     float: right !important;
-    transform: translate(-77%,-215%);
+    transform: translate(-110%,-249%);
 }
 /* ul {
 background-color: #7795F8;
