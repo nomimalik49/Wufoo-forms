@@ -78,8 +78,10 @@ li#fo7li15 {
 li#fo7li17 {
     display: table-cell;
     border-bottom: 0px !important;
+    width: 20% !important;
 }
 li#fo7li18 {
     display: table-cell;
- border-bottom: 0px !important;
+    border-bottom: 0px !important;
+     width: 20% !important;
 }
