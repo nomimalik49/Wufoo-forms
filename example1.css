@@ -37,7 +37,7 @@ input::placeholder {
    color: #fff !important;
 }
 .wufoo li.focused {
-    background-color: transparent !important;
+    background-color: #7795F8 !important;
 }
 
 form li.focused {
