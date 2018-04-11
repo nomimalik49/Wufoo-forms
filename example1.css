@@ -79,9 +79,12 @@ li#fo7li17 {
     display: table-cell;
     border-bottom: 0px !important;
     width: 20% !important;
+    float:right !important;
 }
 li#fo7li18 {
     display: table-cell;
     border-bottom: 0px !important;
      width: 20% !important;
+ float:right !important;
 }
+
