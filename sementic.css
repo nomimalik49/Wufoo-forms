@@ -23,14 +23,18 @@ form.wufoo {
    margin-top: 15px !important;
 }
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
-    font-family: inherit;
     background-color: transparent !important;
     color: #333 !important;
     border-color: #DEDEDF;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     text-indent: 6px;
      font-size: 14px !important;
+    border-radius:5px !important;
 }
+.wufoo input.text, .wufoo input.file {
+  height:30px !important;
+}
+
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    border:1px solid #85B7D9;
    outline: 0px !important;
