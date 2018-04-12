@@ -75,9 +75,9 @@ label.desc {
 .wufoo input.btTxt {
     width: 100%;
     height: 40px;
-    background-color: #24B47E;
+    background-color: #E0E1E2;
     border: 0px;
-    color: #fff;
+    color: #333;
     border-radius: 10px;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
