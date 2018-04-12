@@ -77,9 +77,15 @@ label.desc {
     height: 40px;
     background-color: #E0E1E2;
     border: 0px;
-    color: #333;
+    color: #6A6A6B;
+    font-weight: bold;
     border-radius: 10px;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+.wufoo input.btTxt:hover {
+    color: #333;
+    background-color: #CACBCD;
+
 }
 /* .wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label {
    transform: scale(0.85) translateY(-20px);
