@@ -50,6 +50,13 @@ textarea  {
     color: #333 !important;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
+.wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
+   border: 0px;
+   outline: 0px !important;
+    outline-color: transparent !important;
+   color: #fff !important;
+}
+
 .wufoo li span {
     font-weight: 100 !important;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
