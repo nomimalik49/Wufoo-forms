@@ -91,4 +91,12 @@ label.desc {
     cursor: default;
     color: #24b47e !important;
 } */
-
+select#Field17 {
+    height: 35px;
+    border-radius: 5px;
+    border-color: #DEDEDF;
+    color: #333;
+}
+select#Field17:focus {
+   border: 1px solid #85B7D9;
+}
