@@ -85,7 +85,6 @@ label.desc {
 .wufoo input.btTxt:hover {
     color: #333;
     background-color: #CACBCD;
-
 }
 /* .wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label {
    transform: scale(0.85) translateY(-20px);
