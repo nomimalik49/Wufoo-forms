@@ -35,7 +35,7 @@ form.wufoo {
   height:30px !important;
 }
 .wufoo textarea.textarea {
- height: 60px !important;
+ height: 90px !important;
 }
 
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
