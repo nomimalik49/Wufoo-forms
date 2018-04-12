@@ -96,6 +96,7 @@ select#Field17 {
     border-radius: 5px;
     border-color: #DEDEDF;
     color: #333;
+    font-size: 14px !important;
 }
 select#Field17:focus {
    border: 1px solid #85B7D9;
