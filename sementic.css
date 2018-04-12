@@ -68,7 +68,7 @@ label.desc {
     font-size: 14px !important;
     font-family: inherit;
     font-style: normal;
-    font-weight: 400 !important;
+    font-weight: bold !important;
     color: #333 !important;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
@@ -78,7 +78,7 @@ label.desc {
     background-color: #E0E1E2;
     border: 0px;
     color: #6A6A6B;
-    font-weight: bold;
+    font-weight: 500;
     border-radius: 10px;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
