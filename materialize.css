@@ -90,7 +90,7 @@ label.desc {
     border-radius: 10px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
-.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused div label {
+.wufoo li.focused label.desc, .wufoo li.focused div label {
    transform: scale(0.85) translateY(-20px);
     cursor: default;
     color: #26A6A7 !important;
