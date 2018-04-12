@@ -27,14 +27,14 @@ form.wufoo {
     border: 0px;
     background-color: transparent !important;
     color: #fff !important;
-    border-bottom: 1px solid #CFD7DF !important;
+    border-bottom: 1px solid #9E9E9E !important;
  font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
  text-indent: 6px;
      font-size: 14px !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    border: 0px;
-   border-bottom: 1px solid #24B47E !important;
+   border-bottom: 1px solid #26A6A7 !important;
    outline: 0px !important;
     outline-color: transparent !important;
    color: #333 !important;
@@ -61,7 +61,7 @@ label.desc {
     left: 0;
     bottom: 30%;
     left: 1%;
-    color: #cfd7df;
+    color: #B79E9E;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -93,7 +93,7 @@ label.desc {
 .wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label {
    transform: scale(0.85) translateY(-20px);
     cursor: default;
-    color: #24b47e !important;
+    color: #26A6A7 !important;
 }
 li#fo6li10 {
     display: table-cell;
