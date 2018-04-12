@@ -20,7 +20,7 @@ form.wufoo {
     background-color: #fff !important;
 }
 .wufoo li {
-   margin-top: 15px !important;
+   margin-top: 0px !important;
 }
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
     background-color: transparent !important;
