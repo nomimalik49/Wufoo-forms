@@ -27,7 +27,7 @@ form.wufoo {
     border: 0px;
     background-color: transparent !important;
     color: #fff !important;
-    border-bottom: 1px solid #CFD7DF;
+    border-bottom: 1px solid #CFD7DF !important;
  font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
  text-indent: 6px;
      font-size: 14px !important;
@@ -116,4 +116,7 @@ input#Field10, input#Field12 {
 }
 input#Field13 {
 width: 100% !important;
+}
+textarea {
+ height:30px;
 }
