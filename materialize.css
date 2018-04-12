@@ -61,7 +61,7 @@ label.desc {
 
 }
 .wufoo label.desc, .wufoo legend.desc {
-    font-size: 95%;
+    font-size: 16px !important;
     font-family: inherit;
     font-style: normal;
     font-weight: 100 !important;
