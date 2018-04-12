@@ -32,8 +32,7 @@ form.wufoo {
      font-size: 14px !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
-   border: 0px;
-   border-bottom: 1px solid #24B47E !important;
+   border:1px solid #85B7D9;
    outline: 0px !important;
     outline-color: transparent !important;
    color: #333 !important;
