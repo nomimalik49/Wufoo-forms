@@ -24,12 +24,11 @@ form.wufoo {
 }
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
     font-family: inherit;
-    border: 0px;
     background-color: transparent !important;
-    color: #fff !important;
-    border-bottom: 1px solid #CFD7DF;
- font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
- text-indent: 6px;
+    color: #333 !important;
+    border-color: #DEDEDF;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    text-indent: 6px;
      font-size: 14px !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
