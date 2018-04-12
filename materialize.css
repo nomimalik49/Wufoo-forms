@@ -61,7 +61,7 @@ label.desc {
     left: 0;
     bottom: 30%;
     left: 1%;
-    color: #B79E9E;
+    color: #B79E9E !important;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -78,7 +78,7 @@ label.desc {
     font-family: inherit;
     font-style: normal;
     font-weight: 100 !important;
-    color: #cfd7df !important;
+    color: #B79E9E !important;
    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 .wufoo input.btTxt {
