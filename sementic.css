@@ -54,13 +54,13 @@ form li.focused {
 }
 
 label.desc {
-    font-size: 16px !important;
+    font-size: 14px !important;
     display:block;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 
 }
 .wufoo label.desc, .wufoo legend.desc {
-    font-size: 12px !important;
+    font-size: 14px !important;
     font-family: inherit;
     font-style: normal;
     font-weight: bold !important;
@@ -74,7 +74,7 @@ label.desc {
     border: 0px;
     color: #fff;
     border-radius: 10px;
-        font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 /* .wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label {
    transform: scale(0.85) translateY(-20px);
