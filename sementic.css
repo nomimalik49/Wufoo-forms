@@ -37,7 +37,7 @@ form.wufoo {
 .wufoo textarea.textarea {
  height: 90px !important;
 }
-input::placeholder {
+input::placeholder, textarea::placeholder  {
  color: #CFCFCF;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
