@@ -121,3 +121,13 @@ textarea {
 label#title109 {
     display: none;
 }
+select#Field109:focus {
+    outline: 0px;
+    border-bottom: 1px solid #26A6A7;
+}
+
+select#Field109 {
+    color: #212121;
+    border: 0px;
+    border-bottom: 1px solid #9E9E9E;
+}
