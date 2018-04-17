@@ -26,7 +26,7 @@ form.wufoo {
     font-family: inherit;
     background-color: transparent !important;
     font-family: Lato,sans-serif;
-     text-indent: 6px;
+     text-indent: 20px !important;
      font-size: 14px !important;
     height:35px;
     border-radius:20px !important;
@@ -62,7 +62,7 @@ label {
     font-family: Lato,sans-serif;
 }
 input::placeholder {
-   text-indent: 10px;
+   text-indent: 20px;
    color: #A4A4A4;
 }
 .wufoo input.btTxt {
