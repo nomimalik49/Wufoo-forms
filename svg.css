@@ -72,6 +72,7 @@ input::placeholder {
    color: #7BABC1;
    font-size:16px !important;
    position: relative;
+   font-weight:100 !important;
 }
 .wufoo input.btTxt {
     width: 100%;
