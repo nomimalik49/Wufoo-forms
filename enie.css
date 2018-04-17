@@ -25,10 +25,13 @@ form.wufoo {
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
     font-family: inherit;
     background-color: transparent !important;
-    color: #fff !important;
     font-family: Lato,sans-serif;
      text-indent: 6px;
      font-size: 14px !important;
+    height:35px;
+    border-radius:20px !important;
+    border:1px solid #EEEEEE !important;
+    background-color: #F7F7F7 !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    outline: 0px !important;
@@ -54,7 +57,7 @@ label {
     font-family: inherit;
     font-style: normal;
     font-weight: 100 !important;
-    color: #cfd7df !important;
+    color: #000 !important;
     font-family: Lato,sans-serif;
 }
 .wufoo input.btTxt {
