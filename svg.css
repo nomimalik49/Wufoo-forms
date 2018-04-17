@@ -89,7 +89,7 @@ input::placeholder {
    background-color: #217093 !important;
 }
 [placeholder]:focus::-webkit-input-placeholder {
-    transform: translateY(-22px) !important;
+    transform: translateY(-19px) !important;
    transition: opacity 0.5s 0.5s ease; 
    opacity: 0.75;
    font-size:12px !important;
