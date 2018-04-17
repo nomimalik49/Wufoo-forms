@@ -65,7 +65,7 @@ label {
 input::placeholder {
    text-indent: 20px;
    color: #7BABC1;
-   font-size:13px !important;
+   font-size:16px !important;
 }
 .wufoo input.btTxt {
     width: 100%;
