@@ -4,9 +4,9 @@
  URL : http://
  Last Updated :
 - - - - - - - - - - - - - - - - - - - - - */
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 body {
-  font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+   font-family: Lato,sans-serif;
 }
 html {
     background-image: none;
@@ -28,8 +28,8 @@ form.wufoo {
     background-color: transparent !important;
     color: #fff !important;
     border-bottom: 1px solid #CFD7DF;
- font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
- text-indent: 6px;
+    font-family: Lato,sans-serif;
+     text-indent: 6px;
      font-size: 14px !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
@@ -52,26 +52,7 @@ form li.focused {
 }
 label {
  font-size: 15px !important;
-}
-label.desc {
-    background: #fff;
-    height: 18px;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 30%;
-    left: 1%;
-    color: #cfd7df;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    transform-origin: 0 50%;
-    cursor: text;
-    transition-property: color, transform;
-    transition-duration: 0.3s;
-    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
-
+ font-family: Lato,sans-serif;
 }
 .wufoo label.desc, .wufoo legend.desc {
     font-size: 95%;
@@ -79,7 +60,7 @@ label.desc {
     font-style: normal;
     font-weight: 100 !important;
     color: #cfd7df !important;
-   font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
+      font-family: Lato,sans-serif;
 }
 .wufoo input.btTxt {
     width: 100%;
@@ -88,32 +69,5 @@ label.desc {
     border: 0px;
     color: #fff;
     border-radius: 10px;
-    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
-}
-.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label {
-   transform: scale(0.85) translateY(-20px);
-    cursor: default;
-    color: #24b47e !important;
-}
-li#fo6li10 {
-    display: table-cell;
-    padding-top: 20px !important;
-    width: 35% !important;
-
-}
-li#fo6li12 {
-    width: 35% !important;
-    display: table-cell;
- padding-top: 20px !important;
-}
-li#fo6li13 {
-    display: table-cell;
-    width: 35% !important;
- padding-top: 20px !important;
-}
-input#Field10, input#Field12 {
-    width: 100% !important;
-}
-input#Field13 {
-width: 100% !important;
+    font-family: Lato,sans-serif;
 }
