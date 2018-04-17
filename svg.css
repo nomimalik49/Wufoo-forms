@@ -41,6 +41,9 @@ form.wufoo {
    box-shadow: 0px 7px 9px 0px rgba(240,240,240,1);
 }
 
+.wufoo input.text:focus + input::placeholder{
+ font-size:10px !important;
+}
 input.text, input.search, textarea.textarea {
    background: none !important;
 }
@@ -67,15 +70,6 @@ input::placeholder {
    color: #7BABC1;
    font-size:16px !important;
    position: relative;
-}
-input::placeholder::after
-{
-    position: absolute;
-    left: 5px;
-    top: 3px;
-    content: attr(placeholder);
-    pointer-events: none;
-    opacity: 0.6;
 }
 .wufoo input.btTxt {
     width: 100%;
