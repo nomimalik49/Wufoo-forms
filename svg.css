@@ -52,12 +52,11 @@ form li.focused {
     background-color: transparent !important;
 }
 label {
- font-size: 14px !important;
+ font-size: 16px !important;
  font-family: Lato,sans-serif;
 }
 .wufoo label.desc, .wufoo legend.desc {
-    font-weight:100 !important;
-    margin-left: 3%;
+    font-weight:bold !important;
     font-family: inherit;
     font-style: normal;
     color: #666666 !important;
@@ -65,7 +64,7 @@ label {
 }
 input::placeholder {
    text-indent: 20px;
-   color: #A4A4A4;
+   color: #7BABC1;
    font-size:13px !important;
 }
 .wufoo input.btTxt {
@@ -76,6 +75,7 @@ input::placeholder {
     color: #ffffff;
     border-radius: 2px;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight:bold !important;
 }
 .wufoo input.btTxt:hover {
    cursor: pointer !important;
