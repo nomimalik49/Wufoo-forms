@@ -24,20 +24,15 @@ form.wufoo {
 }
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
     font-family: inherit;
-    border: 0px;
     background-color: transparent !important;
     color: #fff !important;
-    border-bottom: 1px solid #CFD7DF;
     font-family: Lato,sans-serif;
      text-indent: 6px;
      font-size: 14px !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
-   border: 0px;
-   border-bottom: 1px solid #24B47E !important;
    outline: 0px !important;
-    outline-color: transparent !important;
-   color: #333 !important;
+   outline-color: transparent !important;
 }
 
 input.text, input.search, textarea.textarea {
@@ -60,7 +55,7 @@ label {
     font-style: normal;
     font-weight: 100 !important;
     color: #cfd7df !important;
-      font-family: Lato,sans-serif;
+    font-family: Lato,sans-serif;
 }
 .wufoo input.btTxt {
     width: 100%;
