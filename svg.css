@@ -56,10 +56,10 @@ label {
  font-family: Lato,sans-serif;
 }
 .wufoo label.desc, .wufoo legend.desc {
-    font-weight:bold !important;
+    font-weight:bolder !important;
     font-family: inherit;
     font-style: normal;
-    color: #666666 !important;
+    color: #217093 !important;
     font-family: 'Source Sans Pro', sans-serif;
 }
 input::placeholder {
@@ -75,7 +75,7 @@ input::placeholder {
     color: #ffffff;
     border-radius: 2px;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight:bold !important;
+    font-weight:bolder !important;
 }
 .wufoo input.btTxt:hover {
    cursor: pointer !important;
