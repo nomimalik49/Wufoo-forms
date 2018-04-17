@@ -66,6 +66,16 @@ input::placeholder {
    text-indent: 20px;
    color: #7BABC1;
    font-size:16px !important;
+   position: relative;
+}
+input::placeholder::after
+{
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    content: attr(placeholder);
+    pointer-events: none;
+    opacity: 0.6;
 }
 .wufoo input.btTxt {
     width: 100%;
