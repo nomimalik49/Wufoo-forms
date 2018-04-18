@@ -82,3 +82,10 @@ input::placeholder {
 .wufoo input.btTxt:hover {
    cursor: pointer !important;
 }
+.wufoo .info h2 {
+    font-size: 160%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    color: #A1A2A5 !important;
+}
