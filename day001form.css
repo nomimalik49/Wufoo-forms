@@ -18,6 +18,8 @@ form.wufoo {
     padding: 12% !important;
     position: relative !important;
     background-color: #fff !important;
+    background: url(https://rawgit.com/nomimalik49/Wufoo-forms/master/bg.jpg) no-repeat center;
+    background-size: cover;
 }
 .wufoo li {
    margin-top: 15px !important;
@@ -58,8 +60,9 @@ label {
     font-weight:100 !important;
     font-family: inherit;
     font-style: normal;
-    color: #666666 !important;
+    color: #A1A2A5 !important;
     font-family: Lato,sans-serif;
+    
 }
 input::placeholder {
    text-indent: 5px;
