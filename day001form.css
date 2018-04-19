@@ -34,7 +34,7 @@ form.wufoo {
     height:35px;
     border-radius:20px !important;
     border:0px !important;
-    background:rgba(255,255,255,.1);
+    background:rgba(255,255,255,.1) !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    color: #fff !important;
