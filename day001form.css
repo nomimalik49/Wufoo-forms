@@ -38,10 +38,7 @@ form.wufoo {
     background-color: #F7F7F7 !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
-   outline: 0px !important;
-   outline-color: transparent !important;
-   border: 1px solid #B5B1FF !important;
-   background-color: #fff !important;
+   color: #fff !important;
    font-family: 'Open Sans', sans-serif !important;
 }
 
