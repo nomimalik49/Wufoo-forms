@@ -74,7 +74,7 @@ input::placeholder {
     color: #ffffff;
     border-radius: 20px;
     font-family: 'Open Sans', sans-serif !important;
-    font-weight:bold !important;
+    font-weight: 200 !importnat;
 }
 .wufoo input.btTxt:hover {
    cursor: pointer !important;
