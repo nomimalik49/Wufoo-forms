@@ -27,7 +27,7 @@ form.wufoo {
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
     font-family: inherit;
     background-color: transparent !important;
-    font: Arial !important;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
      text-indent: 5px !important;
      font-size: 14px !important;
    color: #fff !important;
