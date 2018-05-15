@@ -129,3 +129,14 @@ select#Field109 {
 input#Field121 {
     line-height: 20px;
 }
+h2.centerFormProp {
+    font-weight:100 !important;
+   color: #B79E9E !important;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.wufoo .info, .wufoo .paging-context {
+    border-bottom: 2px solid #B79E9E !important;
+    width: 30%;
+    line-height: 11px;
+    margin: 0 auto;
+}
