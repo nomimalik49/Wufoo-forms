@@ -44,7 +44,7 @@ textarea  {
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
   font-size: 15px !important;
 }
-.wufoo input.text, .wufoo input.file, .wufoo select.select {
+.wufoo input.text, .wufoo select.select {
     border: 1px solid #CED4DA !important;
     height: 30px;
     border-radius: 5px;
