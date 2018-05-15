@@ -105,3 +105,6 @@ input#Field19:focus {
     color: #333;
     border-radius: 10px;
 }
+.wufoo input.btTxt:hover {
+ background-color: #F4EEFE;
+}
