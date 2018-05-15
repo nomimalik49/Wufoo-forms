@@ -126,6 +126,11 @@ h2.centerFormProp {
     font-family: inherit;
     font-style: normal;
     color: #217093 !important;
-    font-family: 'Source Sans Pro', sans-serif;
- 
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.wufoo .info, .wufoo .paging-context {
+    border-bottom: 2px solid #217093 !important;
+    width: 30%;
+    line-height: 11px;
+    margin: 0 auto;
 }
