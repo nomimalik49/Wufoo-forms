@@ -22,7 +22,7 @@ form.wufoo {
 .wufoo li {
    margin-top: 15px !important;
 }
-.wufoo input.text, .wufoo textarea.textarea {
+.wufoo input.text {
     font-family: inherit;
     background-color: transparent !important;
     font-family: Lato,sans-serif;
@@ -32,6 +32,9 @@ form.wufoo {
     border-radius:20px !important;
     border:1px solid #EEEEEE !important;
     background-color: #F7F7F7 !important;
+}
+.wufoo textarea.textarea {
+   height:75px !important; 
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    outline: 0px !important;
@@ -115,7 +118,7 @@ h2.centerFormProp {
     font-family: Lato,sans-serif;
 }
 .wufoo .info, .wufoo .paging-context {
-    border-bottom: 2px solid #217093 !important;
+    border-bottom: 2px solid #666666 !important;
     width: 30%;
     line-height: 11px;
     margin: 0 auto;
