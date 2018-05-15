@@ -120,3 +120,6 @@ h2.centerFormProp {
     line-height: 11px;
     margin: 0 auto;
 }
+span input {
+    width: 60px;
+}
