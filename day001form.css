@@ -78,6 +78,7 @@ input::placeholder {
 }
 .wufoo input.btTxt:hover {
    cursor: pointer !important;
+   background-color: #054FCF !important;
 }
 .wufoo .info h2 {
     font-size: 160%;
@@ -93,4 +94,11 @@ input::placeholder {
 }
 div label {
   color: #aaa !important;
+}
+span.symbol {
+    color: #aaa !important;
+}
+.likert caption, .likert thead td, .likert tbody th label {
+    color: #aaa !important;
+    font-family: inherit;
 }
