@@ -22,7 +22,7 @@ form.wufoo {
 .wufoo li {
    margin-top: 15px !important;
 }
-.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
+.wufoo input.text, .wufoo textarea.textarea {
     font-family: inherit;
     background-color: transparent !important;
     font-family: 'Source Sans Pro', sans-serif;
@@ -113,4 +113,8 @@ select {
     border:1px solid #2170AF !important;
     background-color: #F3FAFD !important;
     font-weight:bolder !important;
+}
+.wufoo input.file {
+    border: 0px !important;
+    background-color: transparent !important;
 }
