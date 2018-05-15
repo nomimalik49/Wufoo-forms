@@ -108,3 +108,6 @@ input#Field19:focus {
 .wufoo input.btTxt:hover {
  background-color: #F4EEFE !important;
 }
+div label {
+ color: #cfeaff !important;
+}
