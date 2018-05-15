@@ -111,3 +111,16 @@ input#Field19:focus {
 div label {
  color: #cfeaff !important;
 }
+h2.centerFormProp {
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+   font-style: normal;
+    font-weight: 100 !important;
+    color: #cfeaff !important;
+    font-size:15px !important;
+}
+.wufoo .info, .wufoo .paging-context {
+    border-bottom: 2px solid #cfeaff !important;
+    width: 30%;
+    line-height: 11px;
+    margin: 0 auto;
+}
