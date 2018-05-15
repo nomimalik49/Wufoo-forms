@@ -71,3 +71,11 @@ textarea  {
     border-color: #007bff;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
+.wufoo input.btTxt:hover {
+   background-color: #0059B6 !important;
+}
+input[type="file"] {
+    background-color: transparent !important;
+    border: 0px !important;
+    font-size: 13px !important;
+}
