@@ -99,6 +99,10 @@ select {
     border: 0px !important;
     background-color: transparent !important;
 }
+legend {
+    font-size: 14px !important;
+    color: #666 !important;
+}
 select#Field126-3 {
     width: 5em !important;
 }
