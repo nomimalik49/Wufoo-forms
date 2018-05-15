@@ -52,11 +52,11 @@ textarea  {
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
-   border: 0px;
-   outline: 0px !important;
+      border: 0px;
+    outline: 0px !important;
     outline-color: transparent !important;
-   color: #333 !important;
-  box-shadow: 0px 0px 2px 2px rgba(186,219,251,0.9);
+    color: #333 !important;
+    box-shadow: 0 0px 1px 2px rgba(191,222,255,1);
 }
 
 .wufoo li span {
