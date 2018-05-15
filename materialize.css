@@ -69,7 +69,7 @@ label.desc {
     color: #B79E9E !important;
       font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
-.wufoo li.focused label.desc, .wufoo li.focused div label {
+.wufoo li.focused label.desc, .wufoo li.focused div label, div label {
     color: #B79E9E !important;
 }
 .wufoo input.btTxt {
