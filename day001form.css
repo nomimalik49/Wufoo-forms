@@ -18,7 +18,7 @@ form.wufoo {
     padding: 12% !important;
     position: relative !important;
     background-color: #fff !important;
-    background: url('https://cdn.rawgit.com/nomimalik49/Wufoo-forms/102ed9d0/background1.jpg') no-repeat center;
+    background: url('https://rawgit.com/nomimalik49/Wufoo-forms/master/background1.jpg') no-repeat center;
     background-size: cover;
 }
 .wufoo li {
