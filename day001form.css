@@ -24,7 +24,7 @@ form.wufoo {
 .wufoo li {
    margin-top: 15px !important;
 }
-.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
+.wufoo input.text, .wufoo textarea.textarea {
     font-family: inherit;
     background-color: transparent !important;
     font-family: 'Lato', 'Helvetica Neue', Arial, 'Lucida Grande', Tahoma, Verdana, sans-serif;
@@ -85,4 +85,12 @@ input::placeholder {
     font-style: normal;
     font-weight: normal;
     color: #A1A2A5 !important;
+}
+.wufoo .info, .wufoo .paging-context {
+    border-bottom: 2px dashed #aaa !important;
+    width: 30%;
+    margin: 0 auto;
+}
+div label {
+  color: #aaa !important;
 }
