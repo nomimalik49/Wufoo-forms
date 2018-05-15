@@ -84,6 +84,9 @@ div label, span.symbol {
     border-radius: 10px;
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
+.wufoo input.btTxt:hover {
+  background-color: #069999 !important;
+}
 .wufoo li.focused label.desc, .wufoo li.focused div label {
     color: #26A6A7 !important;
 }
