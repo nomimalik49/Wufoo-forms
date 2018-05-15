@@ -113,14 +113,14 @@ div label {
 }
 .wufoo .info h2 {
    font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
-   font-style: normal;
-    font-weight: 100 !important;
+    font-style: normal;
+    font-weight: bold !important;
     color: #cfeaff !important;
-    font-size:15px !important;
+    font-size: 24px !important;
     
 }
 .wufoo .info, .wufoo .paging-context {
-    border-bottom: 2px solid #cfeaff !important;
+    border-bottom: 2px dashed #cfeaff !important;
     width: 21%;
     line-height: 11px;
     margin: 0 auto;
