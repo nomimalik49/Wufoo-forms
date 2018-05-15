@@ -22,7 +22,7 @@ form.wufoo {
 .wufoo li {
    margin-top: 15px !important;
 }
-.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, select {
     font-family: inherit;
     background-color: transparent !important;
     font-family: 'Source Sans Pro', sans-serif;
@@ -59,6 +59,9 @@ form li.focused {
 label {
  font-size: 16px !important;
  font-family: Lato,sans-serif;
+}
+legend {
+    font-size: 16px !important;
 }
 .wufoo label.desc, .wufoo legend.desc {
     font-weight:bolder !important;
