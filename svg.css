@@ -121,3 +121,11 @@ select {
 select#Field126-3 {
     width: 5em !important;
 }
+h2.centerFormProp {
+    font-weight:bolder !important;
+    font-family: inherit;
+    font-style: normal;
+    color: #217093 !important;
+    font-family: 'Source Sans Pro', sans-serif;
+ 
+}
