@@ -22,13 +22,25 @@ form.wufoo {
 .wufoo li {
    margin-top: 15px !important;
 }
-.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, select {
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
     font-family: inherit;
     background-color: transparent !important;
     font-family: 'Source Sans Pro', sans-serif;
      text-indent: 20px !important;
      font-size: 16px !important;
     height:40px;
+    border-radius:2px !important;
+    border:1px solid #2170AF !important;
+    background-color: #F3FAFD !important;
+    font-weight:bolder !important;
+}
+select {
+    font-family: inherit;
+    background-color: transparent !important;
+    font-family: 'Source Sans Pro', sans-serif;
+     text-indent: 20px !important;
+     font-size: 16px !important;
+    height:45px;
     border-radius:2px !important;
     border:1px solid #2170AF !important;
     background-color: #F3FAFD !important;
