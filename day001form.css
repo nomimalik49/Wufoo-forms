@@ -102,3 +102,6 @@ span.symbol {
     color: #aaa !important;
     font-family: inherit;
 }
+span.star.clickable {
+    color: #fff !important;
+}
