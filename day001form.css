@@ -105,3 +105,6 @@ span.symbol {
 span.star.clickable {
     color: #fff !important;
 }
+legend {
+ font-size: 14px !important;
+}
