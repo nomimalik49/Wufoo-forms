@@ -23,7 +23,7 @@ form.wufoo {
 .wufoo li {
    margin-top: 15px !important;
 }
-.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
+.wufoo input.text, .wufoo textarea.textarea {
     font-family: inherit;
     border: 0px;
     background-color: transparent !important;
