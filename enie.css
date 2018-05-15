@@ -90,6 +90,7 @@ input::placeholder {
 }
 .wufoo input.btTxt:hover {
    cursor: pointer !important;
+   background-color: #362AFF !important;
 }
 /* changes */
 div label {
