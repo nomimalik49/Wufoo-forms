@@ -104,7 +104,7 @@ div label, span.symbol {
     background-color: #e01b22;
     font-size: 18px;
     color: rgb(255, 255, 255);
-    font-family: inherit;
+    font-family: 'Heebo', sans-serif !important;
     padding: 0;
     text-transform: uppercase;
     border: 1px solid #e01b22;
