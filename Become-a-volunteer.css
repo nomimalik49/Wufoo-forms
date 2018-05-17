@@ -34,6 +34,18 @@ form.wufoo {
     border: 1px solid #ececec !important;
     padding-left: 20px;
 }
+select {
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 55px;
+    font-size: 16px;
+    color: #626d79;
+    font-family: 'Heebo', sans-serif;
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #ececec !important;
+    padding-left: 20px;
+}
 /* .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    border: 0px;
    border-bottom: 2px solid #26A6A7 !important;
