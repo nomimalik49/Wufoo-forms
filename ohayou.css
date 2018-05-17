@@ -66,10 +66,10 @@ form li.focused {
     font-family: 'Heebo', sans-serif;
 }
 div label {
-    font-size: 15px;
+    font-size: 15px !important;
     text-transform: uppercase;
     color: #626d79 !important;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Heebo', sans-serif !important;
 }
 div label, span.symbol {
  color: #626d79 !important;
