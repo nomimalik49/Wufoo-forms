@@ -109,12 +109,23 @@ li#fo6li10 {
     font-family: inherit;
     font-style: normal;
     font-weight: normal;
-    color: #B79E9E !important;
+    color: #d2d2d2 !important;
       font-family: 'Heebo', sans-serif;
 }
 .wufoo .info, .wufoo .paging-context {
-    border-bottom: 2px dashed #B79E9E !important;
-    width: 21%;
+    border-bottom: 2px dashed #d2d2d2 !important;
+    width: 50%;
     line-height: 11px;
     margin: 0 auto;
+}
+label#title126 {
+    text-transform: capitalize;
+    color: #d2d2d2 !important;
+    font-family: 'Heebo', sans-serif;
+    position: absolute;
+    top: -16px !important;
+    left: 10px;
+    width: auto;
+    padding: 0 10px;
+    background: #ffffff;
 }
