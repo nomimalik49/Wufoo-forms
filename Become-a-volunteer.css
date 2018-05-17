@@ -4,8 +4,6 @@
  URL : http://
  Last Updated :
 - - - - - - - - - - - - - - - - - - - - - */
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
       font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
@@ -24,23 +22,25 @@ form.wufoo {
    margin-top: 15px !important;
 }
 .wufoo input.text, .wufoo textarea.textarea {
-    font-family: inherit;
-    border: 0px;
-    background-color: transparent !important;
-    color: #333 !important;
-    border-bottom: 1px solid #9E9E9E !important;
-     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-     text-indent: 6px;
-     font-size: 16px !important;
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 50px;
+    font-size: 16px;
+    color: #626d79;
+    font-family: 'ProximaNova-Regular';
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #ececec !important;
+    padding-left: 20px;
 }
-.wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
+/* .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    border: 0px;
    border-bottom: 2px solid #26A6A7 !important;
    outline: 0px !important;
     outline-color: transparent !important;
    color: #333 !important;
   font-size: 16px !important;
-}
+} */
 
 input.text, input.search, textarea.textarea {
    background: none !important;
