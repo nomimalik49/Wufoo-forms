@@ -77,28 +77,32 @@ div label, span.symbol {
  color: #626d79 !important;
 }
 .wufoo input.btTxt {
-   border-radius: 4px;
-    height: 50px;
-    line-height: 50px;
-    outline: none !important;
-    background-color: #ff9270;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    font-family: 'ProximaNova-Bold';
+  border-style: solid;
+    border-width: 1px;
+    border-color: rgb(159, 109, 30);
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, rgb(255,145,30) 0%, rgb(255,184,47) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(255,145,30) 0%, rgb(255,184,47) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(255,145,30) 0%, rgb(255,184,47) 100%);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.32);
+    height: 48px;
+    float: right;
+    font-size: 19px;
+    color: #582e00;
+    text-transform: capitalize;
+    text-align: center;
     padding: 0;
-    text-transform: uppercase;
-    border: 2px solid #ff9270;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+    line-height: 48px;
+    margin-top: 12px;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    outline: none !important;
  font-family: 'Heebo', sans-serif !important;
- width:100%;
+ width:40%;
 }
 .wufoo input.btTxt:hover {
-  background-color: #ffffff !important;
-    color: #ff9270 !important;
+      background-image: -moz-linear-gradient( 90deg,rgb(255,184,47) 0%, rgb(255,145,30) 100%);
+    background-image: -webkit-linear-gradient( 90deg,rgb(255,184,47) 0%, rgb(255,145,30) 100%);
+    background-image: -ms-linear-gradient( 90deg,rgb(255,184,47) 0%, rgb(255,145,30) 100%);
 }
 .wufoo .info h2 {
     font-size: 160%;
