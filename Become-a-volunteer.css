@@ -56,19 +56,21 @@ form li.focused {
 .wufoo label.desc, .wufoo legend.desc {
     font-size: 14px;
     text-transform: capitalize;
-    color: #d2d2d2;
+    color: #d2d2d2 !important;
     font-family: 'ProximaNova-Bold';
     position: absolute;
-    top: -10px;
+    top: -6px;
+    /* width: 25%; */
     left: 10px;
+    width: auto;
     padding: 0 10px;
     background: #ffffff;
 }
 div label, span.symbol {
- color: #B79E9E !important;
+ color: #d2d2d2 !important;
 }
 .wufoo li.focused label.desc, .wufoo li.focused div label {
-    color: #B79E9E !important;
+    color: #d2d2d2 !important;
 }
 .wufoo input.btTxt {
     width: 100%;
@@ -83,46 +85,13 @@ div label, span.symbol {
   background-color: #069999 !important;
 }
 .wufoo li.focused label.desc, .wufoo li.focused div label {
-    color: #26A6A7 !important;
+    color: #d2d2d2 !important;
 }
 li#fo6li10 {
     display: table-cell;
     padding-top: 20px !important;
     width: 35% !important;
 
-}
-li#fo6li12 {
-    width: 35% !important;
-    display: table-cell;
- padding-top: 20px !important;
-}
-li#fo6li13 {
-    display: table-cell;
-    width: 35% !important;
- padding-top: 20px !important;
-}
-
-input#Field13 {
-width: 100% !important;
-}
-textarea {
- height:30px;
-}
-label#title109 {
-    display: none;
-}
-select#Field109:focus {
-    outline: 0px;
-    border-bottom: 1px solid #26A6A7;
-}
-
-select#Field109 {
-    color: #212121;
-    border: 0px;
-    border-bottom: 1px solid #9E9E9E;
-}
-input#Field121 {
-    line-height: 20px;
 }
 .wufoo .info h2 {
     font-size: 160%;
