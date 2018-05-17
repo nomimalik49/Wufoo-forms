@@ -113,7 +113,7 @@ div label, span.symbol {
     -ms-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
- width:102%;
+ width:100%;
 }
 .wufoo input.btTxt:hover {
  background-color: #ffffff !important;
