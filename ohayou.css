@@ -75,6 +75,7 @@ div label, span.symbol {
     -o-transition: all .5s;
     transition: all .5s;
  font-family: 'Heebo', sans-serif !important;
+ width:100%;
 }
 .wufoo input.btTxt:hover {
   background-color: #ffffff !important;
@@ -85,11 +86,11 @@ div label, span.symbol {
     font-family: inherit;
     font-style: normal;
     font-weight: normal;
-    color: #B79E9E !important;
-      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    color: #626d79 !important;
+    font-family: 'Heebo', sans-serif !important;
 }
 .wufoo .info, .wufoo .paging-context {
-    border-bottom: 2px dashed #B79E9E !important;
+    border-bottom: 2px dashed #626d79 !important;
     width: 21%;
     line-height: 11px;
     margin: 0 auto;
