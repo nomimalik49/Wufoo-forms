@@ -62,7 +62,7 @@ form li.focused {
     position: absolute;
     top: -6px;
     /* width: 25%; */
-    left: 10px;
+    left: 14px;
     width: auto;
     padding: 0 10px;
     background: #ffffff;
@@ -75,6 +75,7 @@ form li.focused {
     width: auto;
     padding: 0 10px;
     background: #ffffff;
+ left:14px;
 
 }
 div label, span.symbol {
@@ -124,7 +125,7 @@ label#title126 {
     font-family: 'Heebo', sans-serif;
     position: absolute;
     top: -16px !important;
-    left: 10px;
+    left: 14px;
     width: auto;
     padding: 0 10px;
     background: #ffffff;
