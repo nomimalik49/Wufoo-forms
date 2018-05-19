@@ -4,9 +4,17 @@
  URL : http://
  Last Updated :
 - - - - - - - - - - - - - - - - - - - - - */
-@import url('https://fonts.googleapis.com/css?family=Heebo:800');
+@font-face {    
+font-family: 'Proxima Nova Rg';   
+ src: url('https://rawgit.com/nomimalik49/Wufoo-forms/master/ProximaNova-Regular.woff2') format('woff2'),   
+     url('https://rawgit.com/nomimalik49/Wufoo-forms/master/ProximaNova-Regular.woff') format('woff');    
+font-weight: normal;    
+font-style: normal;
+}
+
+
 body {
-      font-family: 'Heebo', sans-serif;
+      font-family: 'Proxima Nova Rg';
 }
 html {
     background-image: url('https://rawgit.com/nomimalik49/Wufoo-forms/master/ohayou-bg.jpg');
@@ -27,8 +35,8 @@ form.wufoo {
     height: 50px;
     font-size: 16px;
     color: #626d79;
-    font-family: 'Heebo', sans-serif;
-    box-shadow: none !important;
+font-family: 'Proxima Nova Rg';
+ box-shadow: none !important;
     outline: none !important;
     border: 1px solid #626d79;
 }
@@ -38,7 +46,7 @@ select {
     height: 55px;
     font-size: 16px;
     color: #626d79;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Proxima Nova Rg';
     box-shadow: none !important;
     outline: none !important;
     border: 1px solid #626d79;
@@ -62,13 +70,13 @@ form li.focused {
     font-size: 15px;
     text-transform: uppercase;
     color: #626d79 !important;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Proxima Nova Rg';
 }
 div label {
     font-size: 15px !important;
     text-transform: uppercase;
     color: #626d79 !important;
-    font-family: 'Heebo', sans-serif !important;
+    font-family: 'Proxima Nova Rg';
 }
 div label, span.symbol {
  color: #626d79 !important;
@@ -81,7 +89,7 @@ div label, span.symbol {
     background-color: #ff9270;
     font-size: 18px;
     color: rgb(255, 255, 255);
-    font-family: 'ProximaNova-Bold';
+    font-family: 'Proxima Nova Rg !important';
     padding: 0;
     text-transform: uppercase;
     border: 2px solid #ff9270;
@@ -90,7 +98,7 @@ div label, span.symbol {
     -ms-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
- font-family: 'Heebo', sans-serif !important;
+ 
  width:100%;
 }
 .wufoo input.btTxt:hover {
@@ -103,7 +111,7 @@ div label, span.symbol {
     font-style: normal;
     font-weight: normal;
     color: #626d79 !important;
-    font-family: 'Heebo', sans-serif !important;
+   font-family: 'Proxima Nova Rg';
 }
 .wufoo .info, .wufoo .paging-context {
     border-bottom: 2px dashed #626d79 !important;
