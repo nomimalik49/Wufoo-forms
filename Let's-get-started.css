@@ -53,6 +53,14 @@ select {
     outline: none !important;
     font-family: 'Heebo', sans-serif;
 }
+label {
+    margin: -4px !important;
+    padding: 0px !important;
+}
+li {
+  margin:0px !important;
+ padding: 0px !important;
+}
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
  border-color: transparent !important;
     outline: 0;
