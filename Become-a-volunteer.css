@@ -4,9 +4,17 @@
  URL : http://
  Last Updated :
 - - - - - - - - - - - - - - - - - - - - - */
-@import url('https://fonts.googleapis.com/css?family=Heebo:800');
+@font-face {    
+font-family: 'Proxima Nova Rg';   
+ src: url('https://rawgit.com/nomimalik49/Wufoo-forms/master/ProximaNova-Regular.woff2') format('woff2'),   
+     url('https://rawgit.com/nomimalik49/Wufoo-forms/master/ProximaNova-Regular.woff') format('woff');    
+font-weight: normal;    
+font-style: normal;
+}
+
+
 body {
-      font-family: 'Heebo', sans-serif;
+      font-family: 'Proxima Nova Rg';
 }
 html {
     background-image: none;
@@ -28,7 +36,7 @@ form.wufoo {
     height: 50px;
     font-size: 16px;
     color: #626d79;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Proxima Nova Rg';
     box-shadow: none !important;
     outline: none !important;
     border: 1px solid #ececec !important;
@@ -40,7 +48,7 @@ select {
     height: 55px;
     font-size: 16px;
     color: #626d79;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Proxima Nova Rg';
     box-shadow: none !important;
     outline: none !important;
     border: 1px solid #ececec !important;
@@ -70,7 +78,7 @@ form li.focused {
     font-size: 14px;
     text-transform: capitalize;
     color: #d2d2d2 !important;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Proxima Nova Rg';
     position: absolute;
     top: -6px;
     /* width: 25%; */
@@ -104,7 +112,7 @@ div label, span.symbol {
     background-color: #e01b22;
     font-size: 18px;
     color: rgb(255, 255, 255);
-    font-family: 'Heebo', sans-serif !important;
+ font-family: 'Proxima Nova Rg';
     padding: 0;
     text-transform: uppercase;
     border: 1px solid #e01b22;
@@ -134,7 +142,7 @@ li#fo6li10 {
     font-style: normal;
     font-weight: normal;
     color: #d2d2d2 !important;
-      font-family: 'Heebo', sans-serif;
+    font-family: 'Proxima Nova Rg';
 }
 .wufoo .info, .wufoo .paging-context {
     border-bottom: 2px dashed #d2d2d2 !important;
@@ -145,7 +153,7 @@ li#fo6li10 {
 label#title126 {
     text-transform: capitalize;
     color: #d2d2d2 !important;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Proxima Nova Rg';
     position: absolute;
     top: -16px !important;
     left: 14px;
@@ -157,5 +165,5 @@ div label {
     font-size: 14px !important;
     text-transform: capitalize;
     color: #d2d2d2 !important;
-    font-family: 'Heebo', sans-serif !important;
+    font-family: 'Proxima Nova Rg';
 }
