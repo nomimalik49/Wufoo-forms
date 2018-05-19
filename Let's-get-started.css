@@ -22,16 +22,18 @@ form.wufoo {
    margin-top: 15px !important;
 }
 .wufoo input.text, .wufoo textarea.textarea {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(166, 166, 166);
-    border-radius: 2px;
+    background-color: rgb(229, 231, 233);
+    border-radius: 4px;
     background-color: rgba(0, 0, 0, 0);
-    height: 66px;
-    font-size: 16px;
-    color: #3b3b3b;
+    height: 84px;
+    font-size: 24px;
+    color: #6f7278;
+/*     font-family: 'ProximaNova-Regular'; */
+    padding-left: 20px;
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
     font-family: 'Heebo', sans-serif;
- text-indent:10px;
 }
 input::placholder {
  color:#999999 !important;
