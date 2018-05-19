@@ -99,13 +99,14 @@ div label, span.symbol {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    font-size: 36px;
+    font-size: 24px;
     color: rgb(255, 255, 255) !important;
     text-shadow: 0px 1px 3px rgba(23, 16, 25, 0.55) !important;
 /*     font-family: 'ProximaNova-Bold'; */
     text-transform: capitalize;
     padding: 0; 
    font-family: 'Heebo', sans-serif !important;
+ width:100%
 }
 .wufoo input.btTxt:hover {
          color: #36383c !important;
