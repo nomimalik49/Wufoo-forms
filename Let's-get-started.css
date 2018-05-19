@@ -112,7 +112,7 @@ div label, span.symbol {
 }
 .wufoo .info h2 {
     font-size: 160%;
-    font-family: inherit;
+    font-family: 'Heebo', sans-serif !important;
     font-style: normal;
     font-weight: normal;
     color: #626d79 !important;
