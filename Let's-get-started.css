@@ -85,11 +85,24 @@ form li.focused {
     color: #626d79 !important;
     font-family: 'Heebo', sans-serif;
 } */
+label.desc, legend.desc {
+    font-size: 95%;
+    font-weight: bold;
+    color: #222;
+    line-height: 150%;
+    margin: 0;
+    padding: 0 0 3px 0;
+    border: none;
+    display: block;
+    white-space: normal;
+    width: 100%;
+    font-family: 'Proxima Nova Rg' !important;
+}
 div label {
     font-size: 15px !important;
     text-transform: uppercase;
     color: #6f7278 !important;
-    font-family: 'Proxima Nova Rg';
+    font-family: 'Proxima Nova Rg' !important;
 }
 div label, span.symbol {
  color: #6f7278 !important;
