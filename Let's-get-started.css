@@ -4,9 +4,17 @@
  URL : http://
  Last Updated :
 - - - - - - - - - - - - - - - - - - - - - */
-@import url('https://fonts.googleapis.com/css?family=Heebo:800');
+@font-face {    
+font-family: 'Proxima Nova Rg';   
+ src: url('https://rawgit.com/nomimalik49/Wufoo-forms/master/ProximaNova-Regular.woff2') format('woff2'),   
+     url('https://rawgit.com/nomimalik49/Wufoo-forms/master/ProximaNova-Regular.woff') format('woff');    
+font-weight: normal;    
+font-style: normal;
+}
+
+
 body {
-      font-family: 'Heebo', sans-serif;
+      font-family: 'Proxima Nova Rg';
 }
 html {
     background-image: url('https://rawgit.com/nomimalik49/Wufoo-forms/master/started-bg.png');
@@ -28,12 +36,12 @@ form.wufoo {
     height: 84px;
     font-size: 18px;
     color: #6f7278 !important;
-    /* font-family: 'ProximaNova-Regular'; */
+    font-family: 'Proxima Nova Rg';
     padding-left: 20px;
     box-shadow: none !important;
     border: none !important;
     outline: none !important;
-    font-family: 'Heebo', sans-serif;
+   
 }
 input::placholder {
  color:#999999 !important;
@@ -46,12 +54,12 @@ select {
     height: 84px;
     font-size: 18px;
     color: #6f7278 !important;
-    /* font-family: 'ProximaNova-Regular'; */
+    font-family: 'Proxima Nova Rg';
     padding-left: 20px;
     box-shadow: none !important;
     border: none !important;
     outline: none !important;
-    font-family: 'Heebo', sans-serif;
+    
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
  border-color: transparent !important;
@@ -81,7 +89,7 @@ div label {
     font-size: 15px !important;
     text-transform: uppercase;
     color: #6f7278 !important;
-    font-family: 'Heebo', sans-serif !important;
+    font-family: 'Proxima Nova Rg';
 }
 div label, span.symbol {
  color: #6f7278 !important;
@@ -102,10 +110,10 @@ div label, span.symbol {
     font-size: 24px;
     color: rgb(255, 255, 255) !important;
     text-shadow: 0px 1px 3px rgba(23, 16, 25, 0.55) !important;
-/*     font-family: 'ProximaNova-Bold'; */
+    font-family: 'Proxima Nova Rg';
     text-transform: capitalize;
     padding: 0; 
-   font-family: 'Heebo', sans-serif !important;
+    font-weight: bold !important;
  width:100%
 }
 .wufoo input.btTxt:hover {
@@ -113,11 +121,10 @@ div label, span.symbol {
 }
 .wufoo .info h2 {
     font-size: 160%;
-    font-family: 'Heebo', sans-serif !important;
+   font-family: 'Proxima Nova Rg';
     font-style: normal;
     font-weight: normal;
     color: #626d79 !important;
-    font-family: 'Heebo', sans-serif !important;
 }
 .wufoo .info, .wufoo .paging-context {
     border-bottom: 2px dashed #626d79 !important;
