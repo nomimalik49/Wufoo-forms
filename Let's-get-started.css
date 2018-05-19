@@ -87,32 +87,28 @@ div label, span.symbol {
  color: #6f7278 !important;
 }
 .wufoo input.btTxt {
-  border-style: solid;
+ border-style: solid;
     border-width: 1px;
-    border-color: rgb(159, 109, 30);
-    border-radius: 5px;
-    background-image: -moz-linear-gradient( 90deg, rgb(255,145,30) 0%, rgb(255,184,47) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(255,145,30) 0%, rgb(255,184,47) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(255,145,30) 0%, rgb(255,184,47) 100%);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.32);
-    height: 48px;
-    float: right;
-    font-size: 19px;
-    color: #582e00;
-    text-transform: capitalize;
-    text-align: center;
-    padding: 0;
-    line-height: 48px;
-    margin-top: 12px;
-    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    border-color: rgb(42, 139, 123) !important;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3), inset 0px 2px 0px 0px rgba(255, 255, 255, 0.4) !important;
+    height: 72px;
+    line-height: 72px;
     outline: none !important;
- font-family: 'Heebo', sans-serif !important;
- width:40%;
+    background: url('https://rawgit.com/nomimalik49/Wufoo-forms/master/btn-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 36px;
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0px 1px 3px rgba(23, 16, 25, 0.55) !important;
+/*     font-family: 'ProximaNova-Bold'; */
+    text-transform: capitalize;
+    padding: 0; 
+   font-family: 'Heebo', sans-serif !important;
 }
 .wufoo input.btTxt:hover {
-      background-image: -moz-linear-gradient( 90deg,rgb(255,184,47) 0%, rgb(255,145,30) 100%);
-    background-image: -webkit-linear-gradient( 90deg,rgb(255,184,47) 0%, rgb(255,145,30) 100%);
-    background-image: -ms-linear-gradient( 90deg,rgb(255,184,47) 0%, rgb(255,145,30) 100%);
+         color: #36383c !important;
 }
 .wufoo .info h2 {
     font-size: 160%;
