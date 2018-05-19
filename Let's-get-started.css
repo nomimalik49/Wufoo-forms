@@ -24,7 +24,7 @@ form.wufoo {
 .wufoo input.text, .wufoo textarea.textarea {
     background-color: rgb(229, 231, 233);
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0) !important;
     height: 84px;
     font-size: 24px;
     color: #6f7278 !important;
