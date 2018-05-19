@@ -22,13 +22,13 @@ form.wufoo {
    margin-top: 15px !important;
 }
 .wufoo input.text, .wufoo textarea.textarea {
-    background-color: rgb(229, 231, 233);
+   background-color: rgb(229, 231, 233) !important;
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0) !important;
+    /* background-color: rgba(0, 0, 0, 0) !important; */
     height: 84px;
-    font-size: 24px;
+    font-size: 18px;
     color: #6f7278 !important;
-/*     font-family: 'ProximaNova-Regular'; */
+    /* font-family: 'ProximaNova-Regular'; */
     padding-left: 20px;
     box-shadow: none !important;
     border: none !important;
@@ -40,13 +40,13 @@ input::placholder {
  font-size:14px !importnat;
 }
 select {
-  background-color: rgb(229, 231, 233);
+  background-color: rgb(229, 231, 233) !important;
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0);
-    height: 89px;
-    font-size: 24px;
+    /* background-color: rgba(0, 0, 0, 0) !important; */
+    height: 84px;
+    font-size: 18px;
     color: #6f7278 !important;
-/*     font-family: 'ProximaNova-Regular'; */
+    /* font-family: 'ProximaNova-Regular'; */
     padding-left: 20px;
     box-shadow: none !important;
     border: none !important;
