@@ -42,7 +42,11 @@ form.wufoo {
     font-weight: 100;
     font-family: 'Proxima Nova Rg';
 }
-input::placeholder {
+.wufoo textarea.textarea {
+height:80px !important;
+
+}
+input::placeholder, textarea::placeholder {
   color: #fff !important;
 }
 select {
