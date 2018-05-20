@@ -89,7 +89,7 @@ div label, span.symbol {
     background-color: #ff9270;
     font-size: 18px;
     color: rgb(255, 255, 255);
-    font-family: 'Proxima Nova Rg !important';
+    font-family: 'Proxima Nova Rg' !important;
     padding: 0;
     text-transform: uppercase;
     border: 2px solid #ff9270;
@@ -97,9 +97,8 @@ div label, span.symbol {
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
-    transition: all .5s;
- 
- width:100%;
+    transition: all .5s; 
+    width:100%;
 }
 .wufoo input.btTxt:hover {
   background-color: #ffffff !important;
