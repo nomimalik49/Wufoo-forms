@@ -132,6 +132,9 @@ div label, span.symbol {
 .wufoo input.btTxt:hover {
          color: #36383c !important;
 }
+.wufoo .info {
+  display:none !important;
+}
 .wufoo .info h2 {
     font-size: 160%;
    font-family: 'Proxima Nova Rg';
