@@ -90,7 +90,7 @@ form li.focused {
 .wufoo legend.desc{
  font-size: 14px;
     text-transform: capitalize;
- color: #fff !important;
+ color: #333 !important;
     
 
 }
