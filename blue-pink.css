@@ -13,7 +13,7 @@ body {
 }
 html {
     background-image: none;
-    background-color: #ffffff;
+    background-color: #6772E5;
 }
 
 form.wufoo {
@@ -32,7 +32,7 @@ form.wufoo {
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    border: 0px;
-   border-bottom: 1px solid #fff !important;
+/*    border-bottom: 1px solid #fff !important; */
    outline: 0px !important;
     outline-color: transparent !important;
 }
@@ -100,7 +100,7 @@ input#Field19:focus {
     width: 100%;
 /*     transform: translateY(-200%); */
     height: 40px;
-    background-color: #fff;
+    background-color: #F6A4EB;
     border: 0px;
     color: #333;
     border-radius: 10px;
