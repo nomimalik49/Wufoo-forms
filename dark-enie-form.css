@@ -38,8 +38,8 @@ form.wufoo {
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.2) !important;
     text-indent: 10px;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 100;
     font-family: 'Proxima Nova Rg';
 }
 input::placeholder {
@@ -57,14 +57,14 @@ select {
     font-weight: 600;
     font-family: 'Proxima Nova Rg';
 }
-/* .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
+.wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    border: 0px;
-   border-bottom: 2px solid #26A6A7 !important;
    outline: 0px !important;
     outline-color: transparent !important;
-   color: #333 !important;
-  font-size: 16px !important;
-} */
+    border-radius: 20px;
+    color: #333 !important;
+ background-color: #fff !important;
+}
 
 input.text, input.search, textarea.textarea {
    background: none !important;
