@@ -25,34 +25,34 @@ form.wufoo {
     margin: 0px auto !important;
     padding: 12% !important;
     position: relative !important;
-    background-color: #fff !important;
+    background-color: #525F7F !important;
 }
 .wufoo li {
    margin-top: 15px !important;
 }
 .wufoo input.text, .wufoo textarea.textarea {
-    background-color: #ffffff;
-    border-radius: 4px;
-    height: 50px;
+    color: #fff;
+    border: 0px !important;
+    -webkit-animation: 1ms void-animation-out;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-indent: 10px;
     font-size: 16px;
-    color: #626d79;
+    font-weight: 600;
     font-family: 'Proxima Nova Rg';
-    box-shadow: none !important;
-    outline: none !important;
-    border: 1px solid #ececec !important;
-    padding-left: 20px;
 }
 select {
-    background-color: #ffffff;
-    border-radius: 4px;
-    height: 55px;
+     color: #fff;
+    border: 0px !important;
+    -webkit-animation: 1ms void-animation-out;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-indent: 10px;
     font-size: 16px;
-    color: #626d79;
+    font-weight: 600;
     font-family: 'Proxima Nova Rg';
-    box-shadow: none !important;
-    outline: none !important;
-    border: 1px solid #ececec !important;
-    padding-left: 20px;
 }
 /* .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    border: 0px;
