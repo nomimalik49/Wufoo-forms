@@ -105,6 +105,9 @@ div label, span.symbol {
   background-color: #ffffff !important;
     color: #ff9270 !important;
 }
+.wufoo .info {
+  display:none !important;
+}
 .wufoo .info h2 {
     font-size: 160%;
     font-family: inherit;
