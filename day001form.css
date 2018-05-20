@@ -109,5 +109,5 @@ legend {
  font-size: 14px !important;
 }
 .wufoo .info {
-    display: none;
+    display: none !important;
 }
