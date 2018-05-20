@@ -31,16 +31,19 @@ form.wufoo {
    margin-top: 15px !important;
 }
 .wufoo input.text, .wufoo textarea.textarea {
-    color: #fff;
+    color: #333 !important;
     border: 0px !important;
     -webkit-animation: 1ms void-animation-out;
     height: 40px;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2) !important;
     text-indent: 10px;
     font-size: 16px;
     font-weight: 600;
     font-family: 'Proxima Nova Rg';
+}
+input::placeholder {
+  color: #fff !important;
 }
 select {
      color: #fff;
