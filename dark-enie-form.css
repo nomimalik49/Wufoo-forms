@@ -98,41 +98,23 @@ form li.focused {
 div label, span.symbol {
  color: #fff !important;
 }
-.wufoo li.focused label.desc, .wufoo li.focused div label {
-    color: #fff !important;
-}
+
 .wufoo input.btTxt {
-   border-radius: 4px;
-    height: 50px;
-    line-height: 50px;
-    outline: none !important;
-    background-color: #e01b22;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
+      background-color: #FCD669 !important;
+    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #ffb9f6 !important;
+    border-radius: 20px;
+    color: #525F7F !important;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px !important;
  font-family: 'Proxima Nova Rg';
-    padding: 0;
-    text-transform: uppercase;
-    border: 1px solid #e01b22;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
- width:100%;
+  
 }
 .wufoo input.btTxt:hover {
  background-color: #ffffff !important;
-    color: #e01b22 !important;
+    color: #525F7F !important;
 }
-.wufoo li.focused label.desc, .wufoo li.focused div label {
-    color: #d2d2d2 !important;
-}
-li#fo6li10 {
-    display: table-cell;
-    padding-top: 20px !important;
-    width: 35% !important;
 
-}
 .wufoo .info {
   display:none !important;
 }
