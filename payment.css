@@ -125,3 +125,6 @@ div label {
     line-height: 11px;
     margin: 0 auto;
 }
+.wufoo .info {
+    display: none;
+}
