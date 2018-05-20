@@ -117,5 +117,8 @@ input#Field10, input#Field12 {
 input#Field13 {
 width: 100% !important;
 }
+.wufoo .info, .wufoo .paging-context {
+    display: none;
+}
 
 
