@@ -102,3 +102,6 @@ select#Field17 {
 select#Field17:focus {
    border: 1px solid #85B7D9;
 }
+.wufoo .info {
+    display: none;
+}
