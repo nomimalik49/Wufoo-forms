@@ -136,6 +136,9 @@ li#fo6li10 {
     width: 35% !important;
 
 }
+.wufoo .info {
+  display:none !important;
+}
 .wufoo .info h2 {
     font-size: 160%;
     font-family: inherit;
