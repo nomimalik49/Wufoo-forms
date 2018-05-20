@@ -129,3 +129,7 @@ div label {
 .wufoo .info {
     display: none;
 }
+#container {
+    border: 0px !important;
+    box-shadow: none !important;
+}
