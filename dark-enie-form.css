@@ -4,13 +4,21 @@
  URL : http://
  Last Updated :
 - - - - - - - - - - - - - - - - - - - - - */
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {    
+font-family: 'Proxima Nova Rg';   
+ src: url('https://rawgit.com/nomimalik49/Wufoo-forms/master/ProximaNova-Regular.woff2') format('woff2'),   
+     url('https://rawgit.com/nomimalik49/Wufoo-forms/master/ProximaNova-Regular.woff') format('woff');    
+font-weight: normal;    
+font-style: normal;
+}
+
+
 body {
-   font-family: Lato,sans-serif;
+      font-family: 'Proxima Nova Rg';
 }
 html {
-    background-image: none !important;
-    background-color: #525F7F;
+    background-image: none;
+    background-color: #F6F9FC;
 }
 
 form.wufoo {
@@ -22,37 +30,38 @@ form.wufoo {
 .wufoo li {
    margin-top: 15px !important;
 }
-.wufoo input.text {
-    color: #333;
-    border: 0px !important;
-    -webkit-animation: 1ms void-animation-out;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
-    text-indent: 10px;
-    font-family: Lato,sans-serif;
+.wufoo input.text, .wufoo textarea.textarea {
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 50px;
     font-size: 16px;
-    font-weight: 600;
+    color: #626d79;
+    font-family: 'Proxima Nova Rg';
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #ececec !important;
+    padding-left: 20px;
 }
-.wufoo textarea.textarea {
-   height:75px !important; 
-   color: #333;
-    border: 0px !important;
-    -webkit-animation: 1ms void-animation-out;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
-    text-indent: 10px;
-    font-family: Lato,sans-serif;
+select {
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 55px;
     font-size: 16px;
-    font-weight: 600;
+    color: #626d79;
+    font-family: 'Proxima Nova Rg';
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #ececec !important;
+    padding-left: 20px;
 }
-.wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
+/* .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
+   border: 0px;
+   border-bottom: 2px solid #26A6A7 !important;
    outline: 0px !important;
-   outline-color: transparent !important;
-   border: 1px solid #B5B1FF !important;
-   background-color: #fff !important;
-}
+    outline-color: transparent !important;
+   color: #333 !important;
+  font-size: 16px !important;
+} */
 
 input.text, input.search, textarea.textarea {
    background: none !important;
@@ -64,77 +73,89 @@ input.text, input.search, textarea.textarea {
 form li.focused {
     background-color: transparent !important;
 }
-label {
- font-size: 14px !important;
- font-family: Lato,sans-serif;
+
+.wufoo label.desc {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #d2d2d2 !important;
+    font-family: 'Proxima Nova Rg';
+    position: absolute;
+    top: -6px;
+    /* width: 25%; */
+    left: 14px;
+    width: auto;
+    padding: 0 10px;
+    background: #ffffff;
 }
-.wufoo label.desc, .wufoo legend.desc {
-    font-weight:100 !important;
-    margin-left: 3%;
-    font-family: inherit;
-    font-style: normal;
-    color: #666666 !important;
-    font-family: Lato,sans-serif;
+.wufoo legend.desc{
+ font-size: 14px;
+    text-transform: capitalize;
+    color: #d2d2d2 !important;
+    font-family: 'Heebo', sans-serif;
+    width: auto;
+    padding: 0 10px;
+    background: #ffffff;
+ left:14px;
+
 }
-input::placeholder {
-   text-indent: 20px;
-   color: #A4A4A4;
-   font-size:13px !important;
+div label, span.symbol {
+ color: #d2d2d2 !important;
+}
+.wufoo li.focused label.desc, .wufoo li.focused div label {
+    color: #d2d2d2 !important;
 }
 .wufoo input.btTxt {
-    width: 100%;
-    height: 40px;
-    background-color: #5D53FF;
-    border: 0px;
-    color: #ffffff;
-    border-radius: 20px;
-    font-family: Lato,sans-serif;
+   border-radius: 4px;
+    height: 50px;
+    line-height: 50px;
+    outline: none !important;
+    background-color: #e01b22;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+ font-family: 'Proxima Nova Rg';
+    padding: 0;
+    text-transform: uppercase;
+    border: 1px solid #e01b22;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+ width:100%;
 }
 .wufoo input.btTxt:hover {
-   cursor: pointer !important;
-   background-color: #362AFF !important;
+ background-color: #ffffff !important;
+    color: #e01b22 !important;
 }
-/* changes */
-div label {
-    color: #666666 !important;
- font-size: 14px !important;
+.wufoo li.focused label.desc, .wufoo li.focused div label {
+    color: #d2d2d2 !important;
 }
-select {
-    font-family: inherit;
-    background-color: transparent !important;
-    font-family: Lato,sans-serif;
-     text-indent: 20px !important;
-     font-size: 14px !important;
-    height:35px;
-    border-radius:20px !important;
-    border:1px solid #EEEEEE !important;
-    background-color: #F7F7F7 !important;
+li#fo6li10 {
+    display: table-cell;
+    padding-top: 20px !important;
+    width: 35% !important;
+
 }
-.wufoo input.file {
-    border: 0px !important;
-    background-color: transparent !important;
+.wufoo .info {
+  display:none !important;
 }
-legend {
-    font-size: 14px !important;
-    color: #666 !important;
-}
-select#Field125-3 {
-    width: 5em !important;
-}
-h2.centerFormProp {
-    font-weight:100 !important;
-    margin-left: 3%;
+.wufoo .info h2 {
+    font-size: 160%;
     font-family: inherit;
     font-style: normal;
-    color: #666666 !important;
-    font-family: Lato,sans-serif;
+    font-weight: normal;
+    color: #d2d2d2 !important;
+    font-family: 'Proxima Nova Rg';
 }
 .wufoo .info, .wufoo .paging-context {
-    border-bottom: 2px solid #666666 !important;
-    width: 30%;
+    border-bottom: 2px dashed #d2d2d2 !important;
+    width: 50%;
     line-height: 11px;
     margin: 0 auto;
 }
-span input {
-    width: 60px;
+div label {
+    font-size: 14px !important;
+    text-transform: capitalize;
+    color: #d2d2d2 !important;
+    font-family: 'Proxima Nova Rg';
 }
