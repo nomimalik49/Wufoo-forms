@@ -84,32 +84,21 @@ form li.focused {
 .wufoo label.desc {
     font-size: 14px;
     text-transform: capitalize;
-    color: #d2d2d2 !important;
+    color: #fff !important;
     font-family: 'Proxima Nova Rg';
-    position: absolute;
-    top: -6px;
-    /* width: 25%; */
-    left: 14px;
-    width: auto;
-    padding: 0 10px;
-    background: #ffffff;
 }
 .wufoo legend.desc{
  font-size: 14px;
     text-transform: capitalize;
-    color: #d2d2d2 !important;
-    font-family: 'Heebo', sans-serif;
-    width: auto;
-    padding: 0 10px;
-    background: #ffffff;
- left:14px;
+ color: #fff !important;
+    
 
 }
 div label, span.symbol {
- color: #d2d2d2 !important;
+ color: #fff !important;
 }
 .wufoo li.focused label.desc, .wufoo li.focused div label {
-    color: #d2d2d2 !important;
+    color: #fff !important;
 }
 .wufoo input.btTxt {
    border-radius: 4px;
@@ -146,23 +135,10 @@ li#fo6li10 {
 .wufoo .info {
   display:none !important;
 }
-.wufoo .info h2 {
-    font-size: 160%;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: normal;
-    color: #d2d2d2 !important;
-    font-family: 'Proxima Nova Rg';
-}
-.wufoo .info, .wufoo .paging-context {
-    border-bottom: 2px dashed #d2d2d2 !important;
-    width: 50%;
-    line-height: 11px;
-    margin: 0 auto;
-}
+
 div label {
     font-size: 14px !important;
     text-transform: capitalize;
-    color: #d2d2d2 !important;
+    color: #fff !important;
     font-family: 'Proxima Nova Rg';
 }
