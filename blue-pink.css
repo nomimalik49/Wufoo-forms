@@ -20,7 +20,7 @@ form.wufoo {
     margin: 0px auto !important;
     padding: 12% !important;
     position: relative !important;
-    background-color: #9169D8 !important;
+    background-color: #6772E5 !important;
 }
 .wufoo input.text, .wufoo textarea.textarea{
     font-family: inherit;
@@ -35,6 +35,7 @@ form.wufoo {
 /*    border-bottom: 1px solid #fff !important; */
    outline: 0px !important;
     outline-color: transparent !important;
+ border-bottom: 1px solid #CDC8F0 !important;
 }
 
 input.text, input.search, textarea.textarea {
