@@ -136,3 +136,7 @@ h2.centerFormProp {
 span input {
     width: 60px;
 }
+.wufoo .info {
+    display: none;
+}
+
