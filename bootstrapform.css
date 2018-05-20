@@ -90,3 +90,7 @@ input[type="file"] {
     font-weight: normal;
     color: #333 !important;
 }
+.wufoo .info {
+    display: none;
+}
+
