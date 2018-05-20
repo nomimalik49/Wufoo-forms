@@ -100,7 +100,7 @@ input#Field19:focus {
     width: 100%;
 /*     transform: translateY(-200%); */
     height: 40px;
-    background-color: #F6A4EB;
+    background-color: #F6A4EB !important;
     border: 0px;
     color: #333;
     border-radius: 10px;
