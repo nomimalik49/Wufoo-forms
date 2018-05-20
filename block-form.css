@@ -118,6 +118,9 @@ div label, span.symbol {
     background-image: -webkit-linear-gradient( 90deg,rgb(255,184,47) 0%, rgb(255,145,30) 100%);
     background-image: -ms-linear-gradient( 90deg,rgb(255,184,47) 0%, rgb(255,145,30) 100%);
 }
+.wufoo .info {
+  display:none !important;
+}
 .wufoo .info h2 {
     font-size: 160%;
     font-family: inherit;
