@@ -108,3 +108,6 @@ span.star.clickable {
 legend {
  font-size: 14px !important;
 }
+.wufoo .info {
+    display: none;
+}
