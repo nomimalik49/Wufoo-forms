@@ -111,3 +111,19 @@ legend {
 .wufoo .info {
     display: none !important;
 }
+.likert thead td, .likert thead th {
+    background-color: transparent !important;
+}
+.likert table {
+    background-color: transparent !important;
+}
+.likert caption, .likert thead td, .likert tbody th label {
+    color: #cfeaff !important;
+    font-family: inherit;
+}
+.likert tbody tr.alt td, .likert tbody tr.alt th {
+    background-color: transparent !important;
+}
+.likert tbody tr:hover td, .likert tbody tr:hover th, .likert tbody tr:hover label {
+    background-color: transparent !important;
+}
