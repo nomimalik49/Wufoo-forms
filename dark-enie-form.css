@@ -130,3 +130,13 @@ div label {
     color: #fff !important;
     font-family: 'Proxima Nova Rg';
 }
+.likert thead td, .likert thead th {
+    background-color: transparent !important;
+}
+.likert table {
+    background-color: transparent !important;
+}
+.likert caption, .likert thead td, .likert tbody th label {
+    color: #fff !important;
+    font-family: inherit;
+}
