@@ -140,3 +140,6 @@ div label {
     color: #fff !important;
     font-family: inherit;
 }
+.likert tbody tr.alt td, .likert tbody tr.alt th {
+    background-color: transparent !important;
+}
