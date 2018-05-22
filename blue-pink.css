@@ -137,3 +137,16 @@ div label {
     border: 0px !important;
     box-shadow: none !important;
 }
+.likert thead td, .likert thead th {
+    background-color: transparent !important;
+}
+.likert table {
+    background-color: transparent !important;
+}
+.likert caption, .likert thead td, .likert tbody th label {
+    color: #cfeaff !important;
+    font-family: inherit;
+}
+.likert tbody tr.alt td, .likert tbody tr.alt th {
+    background-color: transparent !important;
+}
