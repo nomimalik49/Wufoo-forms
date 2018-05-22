@@ -100,7 +100,6 @@ div label, span.symbol {
     background-image: -ms-linear-gradient( 90deg, rgb(255,145,30) 0%, rgb(255,184,47) 100%);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.32);
     height: 48px;
-    float: right;
     font-size: 19px;
     color: #582e00;
     text-transform: capitalize;
