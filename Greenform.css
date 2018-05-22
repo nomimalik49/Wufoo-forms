@@ -90,6 +90,9 @@ label.desc {
     border-radius: 10px;
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
+.wufoo input.btTxt:hover {
+  background-color: #007E4F !important;
+}
 .wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label {
    transform: scale(0.85) translateY(-20px);
     cursor: default;
