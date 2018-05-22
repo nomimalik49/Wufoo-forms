@@ -127,3 +127,7 @@ legend {
 .likert tbody tr:hover td, .likert tbody tr:hover th, .likert tbody tr:hover label {
     background-color: transparent !important;
 }
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
+    font-family: inherit;
+    color: #aaa !important;
+}
