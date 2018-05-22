@@ -39,6 +39,10 @@ font-family: 'Proxima Nova Rg';
  box-shadow: none !important;
     outline: none !important;
     border: 1px solid #626d79;
+ text-indent:10px !important;
+}
+.wufoo textarea.textarea {
+ padding-top:10px !important;
 }
 select {
    background-color: #ffffff;
@@ -51,6 +55,7 @@ select {
     outline: none !important;
     border: 1px solid #626d79;
 }
+
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
   border: 2px solid #ff9270 !important;
 }
