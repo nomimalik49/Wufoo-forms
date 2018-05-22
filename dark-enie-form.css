@@ -91,9 +91,14 @@ form li.focused {
 .wufoo legend.desc{
  font-size: 14px;
     text-transform: capitalize;
- color: #333 !important;
-    
-
+ color: #fff !important;   
+}
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
+    font-family: inherit;
+    color: #fff !important;
+}
+table caption {
+    color: #fff !important;
 }
 div label, span.symbol {
  color: #fff !important;
@@ -124,6 +129,6 @@ div label, span.symbol {
 div label {
     font-size: 14px !important;
     text-transform: capitalize;
-    color: #333 !important;
+    color: #fff !important;
     font-family: 'Proxima Nova Rg';
 }
