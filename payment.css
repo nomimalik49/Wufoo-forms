@@ -148,3 +148,7 @@ div label {
     font-family: inherit;
     color: #cfeaff !important;
 }
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
+    font-family: inherit;
+    color: #cfeaff !important;
+}
