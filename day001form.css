@@ -118,7 +118,7 @@ legend {
     background-color: transparent !important;
 }
 .likert caption, .likert thead td, .likert tbody th label {
-    color: #cfeaff !important;
+    color: #aaa !important;
     font-family: inherit;
 }
 .likert tbody tr.alt td, .likert tbody tr.alt th {
