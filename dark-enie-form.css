@@ -97,9 +97,7 @@ form li.focused {
     font-family: inherit;
     color: #fff !important;
 }
-table caption {
-    color: #fff !important;
-}
+
 div label, span.symbol {
  color: #fff !important;
 }
