@@ -105,3 +105,8 @@ select#Field17:focus {
 .wufoo .info {
     display: none;
 }
+/* newly */
+span.hours input, span.minutes input, span.seconds input {
+    width: 50px;
+    text-indent: 0px !important;
+}
