@@ -43,7 +43,7 @@ form.wufoo {
     border-radius:20px !important;
     border:1px solid #EEEEEE !important;
     background-color: #F7F7F7 !important;
- padding: 5px 0px !important;
+ padding: 10px!important;
 }
 .wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
    outline: 0px !important;
