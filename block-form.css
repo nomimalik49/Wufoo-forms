@@ -138,3 +138,6 @@ div label, span.symbol {
     width: 80px;
     text-indent: 0px !important;
 }
+span.symbol {
+    margin-top: 5%;
+}
