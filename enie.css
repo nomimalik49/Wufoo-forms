@@ -26,7 +26,7 @@ form.wufoo {
     font-family: inherit;
     background-color: transparent !important;
     font-family: Lato,sans-serif;
-     text-indent: 20px !important;
+     text-indent: 20px;
      font-size: 14px !important;
     height:35px;
     border-radius:20px !important;
