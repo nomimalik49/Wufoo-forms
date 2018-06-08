@@ -139,4 +139,7 @@ span input {
 .wufoo .info {
     display: none;
 }
-
+.date input, .time input, .phone input {
+    width: 80px;
+    text-indent: 0px !important;
+}
