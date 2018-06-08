@@ -110,3 +110,6 @@ span.hours input, span.minutes input, span.seconds input {
     width: 50px;
     text-indent: 0px !important;
 }
+.phone input {
+    width: 80px;
+}
