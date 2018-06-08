@@ -146,3 +146,8 @@ input#Field121 {
 .wufoo .info {
     display: none;
 }
+/* newly added */
+.date input, .time input, .phone input {
+    width: 80px;
+    text-indent: 0px !important;
+}
