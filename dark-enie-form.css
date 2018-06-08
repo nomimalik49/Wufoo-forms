@@ -44,6 +44,7 @@ form.wufoo {
 }
 .wufoo textarea.textarea {
 height:80px !important;
+ padding:10px !important;
 
 }
 input::placeholder, textarea::placeholder {
@@ -145,4 +146,8 @@ div label {
 }
 .likert tbody tr:hover td, .likert tbody tr:hover th, .likert tbody tr:hover label {
     background-color: transparent !important;
+}
+.date input, .time input, .phone input {
+    width: 80px;
+    text-indent: 0px !important;
 }
