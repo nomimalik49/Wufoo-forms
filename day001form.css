@@ -136,3 +136,8 @@ legend {
     font-family: inherit;
     color: #aaa !important;
 }
+/* newly added */
+.date input, .time input, .phone input {
+    width: 80px;
+    text-indent: 0px !important;
+}
