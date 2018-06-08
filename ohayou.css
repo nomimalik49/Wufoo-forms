@@ -39,7 +39,7 @@ font-family: 'Proxima Nova Rg';
  box-shadow: none !important;
     outline: none !important;
     border: 1px solid #626d79;
- text-indent:10px !important;
+ text-indent:10px;
 }
 .wufoo textarea.textarea {
  padding-top:10px !important;
