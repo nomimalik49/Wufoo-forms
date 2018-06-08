@@ -134,3 +134,7 @@ div label, span.symbol {
     line-height: 11px;
     margin: 0 auto;
 }
+.date input, .time input, .phone input {
+    width: 80px;
+    text-indent: 0px !important;
+}
