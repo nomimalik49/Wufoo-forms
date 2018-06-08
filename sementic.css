@@ -106,7 +106,7 @@ select#Field17:focus {
     display: none;
 }
 /* newly */
-span.hours input, span.minutes input, span.seconds input {
+.time input {
     width: 50px;
     text-indent: 0px !important;
 }
