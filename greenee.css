@@ -101,13 +101,13 @@ label.desc {
 .wufoo .info, .wufoo .paging-context {
     display: none;
 }
-/* .date label, .time label, .phone label {
-    background: #fff;
+.date label, .time label, .phone label {
+        background: #fff;
     height: 18px;
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: 40%;
+    bottom: 53%;
     left: 1%;
     color: #cfd7df;
     overflow: hidden;
@@ -121,4 +121,4 @@ label.desc {
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 
 }
- */
+
