@@ -101,13 +101,13 @@ label.desc {
 .wufoo .info, .wufoo .paging-context {
     display: none;
 }
-.date label, .time label, .label phone {
+.date label, .time label, .phone label {
     background: #fff;
     height: 18px;
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: 60%;
+    bottom: 60% !important;
     left: 1%;
     color: #cfd7df;
     overflow: hidden;
