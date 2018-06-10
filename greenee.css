@@ -108,7 +108,7 @@ label.desc {
     left: 0;
     bottom: 53%;
     left: 1%;
-    color: #cfd7df;
+    color: #cfd7df !important;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -126,7 +126,7 @@ label.desc {
     left: 0;
     bottom: 91% !important;
     left: 1%;
-    color: #cfd7df;
+    color: #cfd7df !important;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
