@@ -107,7 +107,8 @@ label.desc {
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: 60% !important;
+    bottom: 40%;
+    left: 1%;
     color: #cfd7df;
     overflow: hidden;
     text-overflow: ellipsis;
