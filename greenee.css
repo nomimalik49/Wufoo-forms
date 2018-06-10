@@ -122,10 +122,9 @@ label.desc {
 .complex label{
     background: #fff;
     height: 18px;
-    position: absolute;
     width: 100%;
     left: 0;
-    bottom: 90% !important;
+    bottom: 91% !important;
     left: 1%;
     color: #cfd7df;
     overflow: hidden;
