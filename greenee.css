@@ -1,0 +1,103 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+ Title :
+ Author :
+ URL : http://
+ Last Updated :
+- - - - - - - - - - - - - - - - - - - - - */
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body {
+  font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+}
+html {
+    background-image: none;
+    background-color: #F6F9FC;
+}
+
+form.wufoo {
+    margin: 0px auto !important;
+    padding: 12% !important;
+    position: relative !important;
+    background-color: #fff !important;
+}
+.wufoo li {
+   margin-top: 15px !important;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
+    font-family: inherit;
+    border: 0px;
+    background-color: transparent !important;
+    color: #fff !important;
+    border-bottom: 1px solid #CFD7DF;
+ font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
+ text-indent: 6px;
+     font-size: 14px !important;
+}
+.wufoo input.text:focus, .wufoo textarea.textarea:focus, .wufoo input.file:focus {
+   border: 0px;
+   border-bottom: 1px solid #24B47E !important;
+   outline: 0px !important;
+    outline-color: transparent !important;
+   color: #333 !important;
+}
+
+input.text, input.search, textarea.textarea {
+   background: none !important;
+}
+.wufoo li.focused {
+    background-color: transparent !important;
+}
+
+form li.focused {
+    background-color: transparent !important;
+}
+label {
+ font-size: 15px !important;
+}
+label.desc {
+    background: #fff;
+    height: 18px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 30%;
+    left: 1%;
+    color: #cfd7df;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transform-origin: 0 50%;
+    cursor: text;
+    transition-property: color, transform;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
+
+}
+.wufoo label.desc, .wufoo legend.desc {
+    font-size: 95%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 100 !important;
+    color: #cfd7df !important;
+   font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
+}
+.wufoo input.btTxt {
+    width: 100%;
+    height: 40px;
+    background-color: #24B47E;
+    border: 0px;
+    color: #fff;
+    border-radius: 10px;
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
+}
+.wufoo input.btTxt:hover {
+  background-color: #007E4F !important;
+}
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label {
+   transform: scale(0.85) translateY(-20px);
+    cursor: default;
+    color: #24b47e !important;
+}
+.wufoo .info, .wufoo .paging-context {
+    display: none;
+}
