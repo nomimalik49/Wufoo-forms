@@ -104,7 +104,6 @@ label.desc {
 .date label, .time label, .phone label {
         background: #fff;
     height: 18px;
-    position: absolute;
     width: 100%;
     left: 0;
     bottom: 53%;
