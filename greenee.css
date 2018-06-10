@@ -118,6 +118,24 @@ label.desc {
     transition-duration: 0.3s;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
     font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
-
+}
+.complex label{
+    background: #fff;
+    height: 18px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 90% !important;
+    left: 1%;
+    color: #cfd7df;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transform-origin: 0 50%;
+    cursor: text;
+    transition-property: color, transform;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-family: Quicksand, Open Sans, Segoe UI, sans-serif !important;
 }
 
