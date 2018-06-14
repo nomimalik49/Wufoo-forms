@@ -1,0 +1,175 @@
+
+/*======================================
+ 3  - Tabs
+=======================================*/
+.vaeem-tabs {
+  margin-top: 0px;
+}
+.tabs-topbar img {
+height: 70px;
+width: auto;
+}
+.icon-text {
+  padding: 40px 0px;
+  font-size: 12px;
+  text-align: center;
+}
+.tabs-topbar {
+  background-color: #454545;
+}
+.tabs-topbar ul {
+  text-align: center;
+}
+.tabs-topbar ul li {
+  float: inherit;
+  display: inline-block;
+  position: relative;
+  width: 130px;
+  padding: 0px 15px;
+}
+
+.tabs-topbar ul li a {
+  padding: 20px 0;
+  line-height: inherit;
+  border-radius: 0px;
+  margin-right: -4px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+}
+.tabs-topbar ul li a span {
+  display: block;
+}
+.nav-tabs>li>a:hover {
+    border: 0px !important;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    /* text-decoration: none; */
+    background-color: rgba(255,255,255,0.4);
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff !important;
+    cursor: default;
+    background-color: rgba(255,255,255,0.3) !important;
+    border: 0px !important;
+}
+.slick-prev:before
+{
+    font-family: "Font Awesome 5 Solid";   content: "\f053" !important;
+}
+[dir='rtl'] .slick-prev:before
+{
+  font-family: "Font Awesome 5 Solid";   content: "\f054" !important;
+
+}
+/* Sub tabs css */
+.cllasic-tab {
+  background-color: #e5e5e5 !important;
+  padding: 5%;
+  position: relative;
+  z-index: 1;
+  top: -25px;
+}
+.cllasic-tab h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.cllasic-tab p {
+  font-size: 16px;
+}
+.cust-btn {
+  background-color: transparent !important;
+    color: #bfbc9f !important;
+    font-weight: 500;
+    border: 2px solid #bfbc9f;
+    border-radius: 0px !important;
+    margin-top: 9px;
+}
+
+
+.slick-next {
+    right: 0px !important;
+}
+.slick-prev{
+  left:0px !important;
+  z-index: 1;
+}
+
+.slick-dotted.slick-slider{
+  margin-bottom: 0px !important;
+}
+.small-visible {
+  display: none;
+}
+@media all and (max-width: 1024px) { }
+@media all and (max-width: 768px) {
+  .cllasic-tab {
+    width: 100%;
+    background-color: #e5e5e5 !important;
+    padding: 5%;
+    position: relative;
+    z-index: 1;
+    top: -25px;
+}
+
+}
+
+@media all and (max-width: 640px) {
+  .tabs-topbar {
+    background-color: transparent !important;
+}
+  .tabs-topbar ul li {
+      float: left;
+      display: inline-block;
+      position: relative;
+      width: 48%;
+      padding: 0px !important;
+      background-color: #333;
+      margin-top: 2%;
+      height: 173px;
+      margin-left: 10px;
+  }
+  .cllasic-tab {
+    width: 86% !important;
+    background-color: #e5e5e5 !important;
+    padding: 5%;
+    position: relative;
+    z-index: 1;
+    top: 10px !important;
+}
+.slider-cover {
+  margin-top: 4%;
+}
+
+}
+@media all and (max-width: 480px) {
+  .tabs-topbar ul li {
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 47%;
+    padding: 0px !important;
+    background-color: #333;
+    margin-top: 2%;
+    height: 173px;
+    margin-left: 10px;
+}
+ }
+
+@media all and (max-width: 415px) { }
+@media all and (max-width: 375px) {
+  .tabs-topbar ul li {
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 46%;
+    padding: 0px !important;
+    background-color: #333;
+    margin-top: 2%;
+    height: 173px;
+    margin-left: 10px;
+}
+ }
+
+@media all and (max-width: 320px) { }
